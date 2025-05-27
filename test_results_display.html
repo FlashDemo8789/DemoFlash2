@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Results Display</title>
+    <style>
+        body { font-family: -apple-system, system-ui; padding: 20px; }
+        .pillars-card { background: #f5f5f5; padding: 20px; border-radius: 8px; margin: 20px 0; }
+        .pillar-score { margin: 10px 0; }
+        .pillar-header { display: flex; justify-content: space-between; margin-bottom: 5px; }
+        .pillar-bar { height: 8px; background: #ddd; border-radius: 4px; overflow: hidden; }
+        .pillar-bar-fill { height: 100%; background: #4CAF50; }
+    </style>
+</head>
+<body>
+    <h1>Testing CAMP Pillar Scores Display</h1>
+    
+    <div class="pillars-card">
+        <h2>CAMP Analysis</h2>
+        <div class="pillar-scores" id="scores">
+            Loading...
+        </div>
+    </div>
+
+    <script>
+        // Test data
+        const results = {
+            pillar_scores: {
+                capital: 0.68,
+                advantage: 0.72,
+                market: 0.65,
+                people: 0.78
+            }
+        };
+
+        const PILLAR_NAMES = {
+            capital: 'Capital',
+            advantage: 'Advantage',
+            market: 'Market',
+            people: 'People'
+        };
+
+        // Render scores
+        const scoresDiv = document.getElementById('scores');
+        scoresDiv.innerHTML = '';
+        
+        Object.entries(results.pillar_scores).forEach(([pillar, score]) => {
+            const pillarDiv = document.createElement('div');
+            pillarDiv.className = 'pillar-score';
+            pillarDiv.innerHTML = `
+                <div class="pillar-header">
+                    <span class="pillar-name">${PILLAR_NAMES[pillar]}</span>
+                    <span class="pillar-value">${Math.round(score * 100)}%</span>
+                </div>
+                <div class="pillar-bar">
+                    <div class="pillar-bar-fill" style="width: ${score * 100}%"></div>
+                </div>
+            `;
+            scoresDiv.appendChild(pillarDiv);
+        });
+
+        console.log('Rendered pillar scores:', results.pillar_scores);
+    </script>
+</body>
+</html>

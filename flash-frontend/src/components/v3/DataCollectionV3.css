@@ -1,0 +1,310 @@
+/* Minimal, professional data collection */
+
+.data-collection-v3 {
+  min-height: 100vh;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.collection-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 48px;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.back-button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  color: #6b7280;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-button:hover {
+  background: #f9fafb;
+  color: #111827;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 2px;
+  background: #f3f4f6;
+  border-radius: 1px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #111827;
+  transition: width 0.3s ease;
+}
+
+/* Form Container */
+.form-container {
+  flex: 1;
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 48px;
+}
+
+.form-section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 12px 0;
+  letter-spacing: -0.02em;
+}
+
+.section-description {
+  font-size: 16px;
+  color: #6b7280;
+  margin: 0 0 48px 0;
+  line-height: 1.6;
+}
+
+/* Fields */
+.fields-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-bottom: 60px;
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.field-group label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+  letter-spacing: 0.025em;
+}
+
+.field-group input,
+.field-group select {
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #111827;
+  transition: all 0.2s ease;
+  -webkit-appearance: none;
+}
+
+.field-group input:focus,
+.field-group select:focus {
+  outline: none;
+  border-color: #111827;
+  box-shadow: 0 0 0 3px rgba(17, 24, 39, 0.05);
+}
+
+.field-group input.error,
+.field-group select.error {
+  border-color: #ef4444;
+}
+
+.field-group input.error:focus,
+.field-group select.error:focus {
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+}
+
+.error-message {
+  font-size: 13px;
+  color: #ef4444;
+  margin-top: 4px;
+}
+
+/* Select styling */
+.field-group select {
+  cursor: pointer;
+  padding-right: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%236B7280' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+}
+
+/* Actions */
+.form-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.primary-button,
+.secondary-button {
+  padding: 12px 32px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  letter-spacing: 0.025em;
+  min-width: 120px;
+}
+
+.primary-button {
+  background: #111827;
+  color: white;
+}
+
+.primary-button:hover {
+  background: #1f2937;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.secondary-button {
+  background: transparent;
+  color: #6b7280;
+  border: 1px solid #e5e7eb;
+}
+
+.secondary-button:hover {
+  border-color: #d1d5db;
+  background: #f9fafb;
+}
+
+/* Section Indicators */
+.section-indicators {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 24px;
+}
+
+.indicator {
+  width: 40px;
+  height: 3px;
+  background: #e5e7eb;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.indicator.active {
+  background: #111827;
+}
+
+.indicator.completed {
+  background: #6b7280;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .collection-header {
+    padding: 16px 24px;
+  }
+  
+  .form-container {
+    padding: 40px 24px;
+  }
+  
+  .fields-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  .form-section h2 {
+    font-size: 28px;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .data-collection-v3 {
+    background: #111827;
+  }
+  
+  .collection-header {
+    border-bottom-color: #374151;
+  }
+  
+  .back-button {
+    color: #9ca3af;
+  }
+  
+  .back-button:hover {
+    background: #1f2937;
+    color: #f9fafb;
+  }
+  
+  .progress-bar {
+    background: #374151;
+  }
+  
+  .progress-fill {
+    background: #f9fafb;
+  }
+  
+  .form-section h2 {
+    color: #f9fafb;
+  }
+  
+  .section-description {
+    color: #9ca3af;
+  }
+  
+  .field-group label {
+    color: #d1d5db;
+  }
+  
+  .field-group input,
+  .field-group select {
+    background: #1f2937;
+    border-color: #374151;
+    color: #f9fafb;
+  }
+  
+  .field-group input:focus,
+  .field-group select:focus {
+    border-color: #f9fafb;
+    box-shadow: 0 0 0 3px rgba(249, 250, 251, 0.1);
+  }
+  
+  .primary-button {
+    background: #f9fafb;
+    color: #111827;
+  }
+  
+  .primary-button:hover {
+    background: #f3f4f6;
+  }
+  
+  .secondary-button {
+    color: #9ca3af;
+    border-color: #4b5563;
+  }
+  
+  .secondary-button:hover {
+    background: #1f2937;
+    border-color: #6b7280;
+  }
+  
+  .indicator {
+    background: #4b5563;
+  }
+  
+  .indicator.active {
+    background: #f9fafb;
+  }
+  
+  .indicator.completed {
+    background: #9ca3af;
+  }
+}

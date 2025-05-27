@@ -1,0 +1,73 @@
+/* Clean, minimal analysis page */
+
+.analysis-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  position: relative;
+}
+
+.analysis-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.phase-indicator {
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  text-align: center;
+}
+
+.error-state {
+  text-align: center;
+}
+
+.error-state p {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+
+.error-state button {
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  background: #111827;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.error-state button:hover {
+  background: #1f2937;
+  transform: translateY(-1px);
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .analysis-page {
+    background: #111827;
+  }
+  
+  .phase-indicator,
+  .error-state p {
+    color: #9ca3af;
+  }
+  
+  .error-state button {
+    background: #f9fafb;
+    color: #111827;
+  }
+  
+  .error-state button:hover {
+    background: #f3f4f6;
+  }
+}

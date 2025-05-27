@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/sf/Desktop/FLASH/api_server.py", line 160, in <module>
+    class StartupMetrics(BaseModel):
+    ...<100 lines>...
+            return v
+  File "/Users/sf/Desktop/FLASH/api_server.py", line 173, in StartupMetrics
+    investor_tier_primary: str = Field(..., regex="^(tier_1|tier_2|tier_3|none)$", description="Primary investor tier")
+                                 ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pydantic/fields.py", line 1073, in Field
+    raise PydanticUserError('`regex` is removed. use `pattern` instead', code='removed-kwargs')
+pydantic.errors.PydanticUserError: `regex` is removed. use `pattern` instead
+
+For further information visit https://errors.pydantic.dev/2.11/u/removed-kwargs

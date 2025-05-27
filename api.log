@@ -1,0 +1,196 @@
+/Users/sf/Desktop/FLASH/api_server.py:227: PydanticDeprecatedSince20: Pydantic V1 style `@validator` validators are deprecated. You should migrate to Pydantic V2 style `@field_validator` validators, see the migration guide for more details. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  @validator('runway_months', pre=True, always=True)
+/Users/sf/Desktop/FLASH/api_server.py:238: PydanticDeprecatedSince20: Pydantic V1 style `@validator` validators are deprecated. You should migrate to Pydantic V2 style `@field_validator` validators, see the migration guide for more details. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  @validator('burn_multiple', pre=True, always=True)
+/Users/sf/Desktop/FLASH/api_server.py:257: PydanticDeprecatedSince20: Pydantic V1 style `@validator` validators are deprecated. You should migrate to Pydantic V2 style `@field_validator` validators, see the migration guide for more details. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  @validator('tam_size_usd')
+/Users/sf/Desktop/FLASH/api_server.py:263: PydanticDeprecatedSince20: Pydantic V1 style `@validator` validators are deprecated. You should migrate to Pydantic V2 style `@field_validator` validators, see the migration guide for more details. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  @validator('sam_size_usd')
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pydantic/_internal/_config.py:373: UserWarning: Valid config keys have changed in V2:
+* 'max_anystr_length' has been renamed to 'str_max_length'
+  warnings.warn(message, UserWarning)
+/Users/sf/Desktop/FLASH/api_server.py:817: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [79208]
+INFO:     Waiting for application startup.
+2025-05-25 19:21:51,219 - __main__ - INFO - Loading models...
+2025-05-25 19:21:51,221 - __main__ - INFO - Loaded conservative model
+2025-05-25 19:21:51,222 - __main__ - INFO - Loaded aggressive model
+2025-05-25 19:21:51,223 - __main__ - INFO - Loaded balanced model
+2025-05-25 19:21:51,225 - __main__ - INFO - Loaded deep model
+2025-05-25 19:21:51,226 - __main__ - INFO - Loaded meta_logistic model
+2025-05-25 19:21:51,231 - __main__ - INFO - Loaded meta_nn model
+2025-05-25 19:21:51,232 - __main__ - INFO - Loaded meta_catboost model
+2025-05-25 19:21:51,234 - __main__ - INFO - Loaded capital pillar model
+2025-05-25 19:21:51,235 - __main__ - INFO - Loaded advantage pillar model
+2025-05-25 19:21:51,236 - __main__ - INFO - Loaded market pillar model
+2025-05-25 19:21:51,237 - __main__ - INFO - Loaded people pillar model
+2025-05-25 19:21:51,237 - __main__ - INFO - Successfully loaded 7 ensemble models and 4 pillar models
+2025-05-25 19:21:51,238 - stage_hierarchical_models - INFO - Models loaded from models/stage_hierarchical
+2025-05-25 19:21:51,238 - __main__ - INFO - Stage-based hierarchical models loaded successfully
+2025-05-25 19:21:51,249 - dna_pattern_analysis - INFO - DNA analyzer loaded from models/dna_analyzer
+2025-05-25 19:21:51,249 - __main__ - INFO - DNA pattern analyzer loaded successfully
+2025-05-25 19:21:51,258 - temporal_models - INFO - Temporal models loaded from models/temporal
+2025-05-25 19:21:51,258 - __main__ - INFO - Temporal models loaded successfully
+2025-05-25 19:21:51,260 - __main__ - ERROR - Failed to load industry models: catboost/libs/model/model.cpp:1185: Incorrect model file descriptor
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54533 - "GET /health HTTP/1.1" 200 OK
+2025-05-25 19:24:38,225 - __main__ - INFO - Prediction request from 127.0.0.1 for stage: series_b
+/Users/sf/Desktop/FLASH/api_server.py:857: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data = pd.DataFrame([metrics.dict()])
+/Users/sf/Desktop/FLASH/api_server.py:902: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  stage_data = pd.DataFrame([metrics.dict()])
+2025-05-25 19:24:38,271 - __main__ - INFO - Stage model prediction: 0.500, Base: 0.550, Final: 0.520
+2025-05-25 19:24:38,277 - __main__ - INFO - Calculated pillar scores using v2 models: {'capital': 0.4517956325542904, 'advantage': 0.4693479851207427, 'market': 0.5801595089848618, 'people': 0.6224096336018765}
+/Users/sf/Desktop/FLASH/api_server.py:961: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data=metrics.dict(),
+/Users/sf/Desktop/FLASH/api_server.py:970: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  key_insights=generate_insights(metrics.dict(), evaluation['adjusted_probability'], evaluation['adjusted_pillar_scores']),
+/Users/sf/Desktop/FLASH/api_server.py:972: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  recommendation=generate_recommendation(evaluation['adjusted_probability'], evaluation['adjusted_pillar_scores'], metrics.dict()),
+2025-05-25 19:24:38,278 - __main__ - INFO - Response pillar_scores: {'capital': 0.4017956325542904, 'advantage': 0.41934798512074273, 'market': 0.4301595089848618, 'people': 0.6724096336018764}
+2025-05-25 19:24:38,278 - __main__ - INFO - Full response dict: {'success_probability': 0.45, 'confidence_interval': {'lower': 0.4731595612739311, 'upper': 0.5664618049969462}, 'risk_level': 'High Risk', 'key_insights': ['📈 Strong growth: 121.0% YoY revenue growth', '💎 Excellent NDR: 127.0% - strong expansion revenue', '⚠️ High customer concentration risk: 70.0%'], 'pillar_scores': {'capital': 0.4017956325542904, 'advantage': 0.41934798512074273, 'market': 0.4301595089848618, 'people': 0.6724096336018764}, 'recommendation': '⚠️ Moderate risk - focus on key improvements. PRIORITY IMPROVEMENTS: • 📊 Extend runway to 18+ months. Focus on revenue growth or raise bridge round. • 🛡️ Strengthen moat: increase switching costs and build deeper technical differentiation. KEY TARGETS: 30d retention >60%', 'timestamp': datetime.datetime(2025, 5, 25, 19, 24, 38, 278483), 'verdict': 'FAIL', 'strength': 'WEAK', 'weighted_score': 0.48180580769376546, 'critical_failures': [], 'below_threshold': ['advantage'], 'stage_thresholds': {'capital': 0.35, 'advantage': 0.45, 'market': 0.4, 'people': 0.5}}
+/Users/sf/Desktop/FLASH/api_server.py:1003: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  feature_dict = metrics.dict()
+2025-05-25 19:24:38,350 - __main__ - INFO - Advanced prediction completed with DNA pattern: blitzscale
+INFO:     127.0.0.1:55196 - "POST /predict_advanced HTTP/1.1" 200 OK
+2025-05-25 19:41:18,244 - __main__ - INFO - Prediction request from 127.0.0.1 for stage: pre_seed
+/Users/sf/Desktop/FLASH/api_server.py:857: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data = pd.DataFrame([metrics.dict()])
+/Users/sf/Desktop/FLASH/api_server.py:902: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  stage_data = pd.DataFrame([metrics.dict()])
+2025-05-25 19:41:18,300 - __main__ - INFO - Stage model prediction: 0.500, Base: 0.396, Final: 0.458
+2025-05-25 19:41:18,307 - __main__ - INFO - Calculated pillar scores using v2 models: {'capital': 0.4424289223219062, 'advantage': 0.4726199546534063, 'market': 0.6119059376179373, 'people': 0.6045078554967745}
+/Users/sf/Desktop/FLASH/api_server.py:961: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data=metrics.dict(),
+/Users/sf/Desktop/FLASH/api_server.py:970: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  key_insights=generate_insights(metrics.dict(), evaluation['adjusted_probability'], evaluation['adjusted_pillar_scores']),
+/Users/sf/Desktop/FLASH/api_server.py:972: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  recommendation=generate_recommendation(evaluation['adjusted_probability'], evaluation['adjusted_pillar_scores'], metrics.dict()),
+2025-05-25 19:41:18,307 - __main__ - INFO - Response pillar_scores: {'capital': 0.39242892232190624, 'advantage': 0.3726199546534063, 'market': 0.7119059376179373, 'people': 0.6545078554967745}
+2025-05-25 19:41:18,308 - __main__ - INFO - Full response dict: {'success_probability': 0.4582820922281703, 'confidence_interval': {'lower': 0.41930243289925784, 'upper': 0.49726175155708274}, 'risk_level': 'Medium-High Risk', 'key_insights': ['🎯 Excellent market fit and positioning', '💎 Excellent NDR: 140.0% - strong expansion revenue'], 'pillar_scores': {'capital': 0.39242892232190624, 'advantage': 0.3726199546534063, 'market': 0.7119059376179373, 'people': 0.6545078554967745}, 'recommendation': '⚠️ Moderate risk - focus on key improvements. PRIORITY IMPROVEMENTS: • 📊 Extend runway to 18+ months. Focus on revenue growth or raise bridge round. • 🛡️ Strengthen moat: increase switching costs and build deeper technical differentiation. KEY TARGETS: runway 18+ months, 30d retention >60%', 'timestamp': datetime.datetime(2025, 5, 25, 19, 41, 18, 307813), 'verdict': 'CONDITIONAL PASS', 'strength': 'WEAK', 'weighted_score': 0.5318752191390811, 'critical_failures': [], 'below_threshold': ['advantage'], 'stage_thresholds': {'capital': 0.35, 'advantage': 0.45, 'market': 0.4, 'people': 0.5}}
+/Users/sf/Desktop/FLASH/api_server.py:1003: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  feature_dict = metrics.dict()
+2025-05-25 19:41:18,340 - __main__ - INFO - Advanced prediction completed with DNA pattern: slow_burn
+INFO:     127.0.0.1:59616 - "POST /predict_advanced HTTP/1.1" 200 OK
+2025-05-25 19:50:04,095 - __main__ - INFO - Prediction request from 127.0.0.1 for stage: pre_seed
+/Users/sf/Desktop/FLASH/api_server.py:857: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data = pd.DataFrame([metrics.dict()])
+/Users/sf/Desktop/FLASH/api_server.py:902: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  stage_data = pd.DataFrame([metrics.dict()])
+2025-05-25 19:50:04,129 - __main__ - INFO - Stage model prediction: 0.500, Base: 0.563, Final: 0.525
+2025-05-25 19:50:04,135 - __main__ - INFO - Calculated pillar scores using v2 models: {'capital': 0.23609269900335544, 'advantage': 0.5644997786480638, 'market': 0.6366597875780808, 'people': 0.6569692281848178}
+/Users/sf/Desktop/FLASH/api_server.py:961: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data=metrics.dict(),
+/Users/sf/Desktop/FLASH/api_server.py:970: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  key_insights=generate_insights(metrics.dict(), evaluation['adjusted_probability'], evaluation['adjusted_pillar_scores']),
+/Users/sf/Desktop/FLASH/api_server.py:972: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  recommendation=generate_recommendation(evaluation['adjusted_probability'], evaluation['adjusted_pillar_scores'], metrics.dict()),
+2025-05-25 19:50:04,135 - __main__ - INFO - Response pillar_scores: {'capital': 0.18609269900335546, 'advantage': 0.6144997786480638, 'market': 0.5866597875780808, 'people': 0.7569692281848178}
+2025-05-25 19:50:04,136 - __main__ - INFO - Full response dict: {'success_probability': 0.5253901853675291, 'confidence_interval': {'lower': 0.4169209082374909, 'upper': 0.6338594624975673}, 'risk_level': 'Medium Risk', 'key_insights': ['💸 Capital concerns - focus on fundraising or revenue', '👥 World-class team with proven experience', '💎 Excellent NDR: 125.0% - strong expansion revenue'], 'pillar_scores': {'capital': 0.18609269900335546, 'advantage': 0.6144997786480638, 'market': 0.5866597875780808, 'people': 0.7569692281848178}, 'recommendation': '⚠️ Moderate risk - focus on key improvements. CRITICAL FIXES: • 🚨 URGENT: Raise funding immediately or drastically cut burn. Target 18+ months runway. KEY TARGETS: 30d retention >60%', 'timestamp': datetime.datetime(2025, 5, 25, 19, 50, 4, 135860), 'verdict': 'CONDITIONAL PASS', 'strength': 'MODERATE', 'weighted_score': 0.5574757273358149, 'critical_failures': [], 'below_threshold': ['capital'], 'stage_thresholds': {'capital': 0.35, 'advantage': 0.45, 'market': 0.4, 'people': 0.5}}
+/Users/sf/Desktop/FLASH/api_server.py:1003: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  feature_dict = metrics.dict()
+2025-05-25 19:50:04,165 - __main__ - INFO - Advanced prediction completed with DNA pattern: category_creator
+INFO:     127.0.0.1:61991 - "POST /predict_advanced HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62597 - "OPTIONS /predict_advanced HTTP/1.1" 200 OK
+2025-05-25 20:21:31,590 - __main__ - INFO - Prediction request from 127.0.0.1 for stage: seed
+/Users/sf/Desktop/FLASH/api_server.py:857: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data = pd.DataFrame([metrics.dict()])
+/Users/sf/Desktop/FLASH/api_server.py:902: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  stage_data = pd.DataFrame([metrics.dict()])
+2025-05-25 20:21:31,625 - __main__ - INFO - Stage model prediction: 0.500, Base: 0.241, Final: 0.396
+2025-05-25 20:21:31,631 - __main__ - INFO - Calculated pillar scores using v2 models: {'capital': 0.2996541057629003, 'advantage': 0.41523965311038014, 'market': 0.319205629180983, 'people': 0.7919132872737763}
+/Users/sf/Desktop/FLASH/api_server.py:961: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data=metrics.dict(),
+/Users/sf/Desktop/FLASH/api_server.py:970: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  key_insights=generate_insights(metrics.dict(), evaluation['adjusted_probability'], evaluation['adjusted_pillar_scores']),
+/Users/sf/Desktop/FLASH/api_server.py:972: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  recommendation=generate_recommendation(evaluation['adjusted_probability'], evaluation['adjusted_pillar_scores'], metrics.dict()),
+2025-05-25 20:21:31,632 - __main__ - INFO - Response pillar_scores: {'capital': 0.2496541057629003, 'advantage': 0.36523965311038015, 'market': 0.319205629180983, 'people': 0.8919132872737763}
+2025-05-25 20:21:31,632 - __main__ - INFO - Full response dict: {'success_probability': 0.39632514928327806, 'confidence_interval': {'lower': 0.3166154570208357, 'upper': 0.4760348415457204}, 'risk_level': 'High Risk', 'key_insights': ['💸 Capital concerns - focus on fundraising or revenue', '👥 World-class team with proven experience', '🚀 Hypergrowth: 155.0% YoY revenue growth'], 'pillar_scores': {'capital': 0.2496541057629003, 'advantage': 0.36523965311038015, 'market': 0.319205629180983, 'people': 0.8919132872737763}, 'recommendation': '🔶 Significant challenges - immediate action required. CRITICAL FIXES: • 🚨 URGENT: Raise funding immediately or drastically cut burn. Target 18+ months runway. KEY TARGETS: NDR >110%, 30d retention >60%', 'timestamp': datetime.datetime(2025, 5, 25, 20, 21, 31, 632116), 'verdict': 'FAIL', 'strength': 'WEAK', 'weighted_score': 0.4622824461993839, 'critical_failures': [], 'below_threshold': ['capital', 'advantage', 'market'], 'stage_thresholds': {'capital': 0.35, 'advantage': 0.45, 'market': 0.4, 'people': 0.5}}
+/Users/sf/Desktop/FLASH/api_server.py:1003: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  feature_dict = metrics.dict()
+2025-05-25 20:21:31,663 - __main__ - INFO - Advanced prediction completed with DNA pattern: pivot_master
+INFO:     127.0.0.1:62597 - "POST /predict_advanced HTTP/1.1" 200 OK
+2025-05-25 20:30:10,881 - __main__ - INFO - Prediction request from 127.0.0.1 for stage: series_a
+/Users/sf/Desktop/FLASH/api_server.py:857: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data = pd.DataFrame([metrics.dict()])
+/Users/sf/Desktop/FLASH/api_server.py:902: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  stage_data = pd.DataFrame([metrics.dict()])
+2025-05-25 20:30:10,915 - __main__ - INFO - Stage model prediction: 0.500, Base: 0.306, Final: 0.422
+2025-05-25 20:30:10,921 - __main__ - INFO - Calculated pillar scores using v2 models: {'capital': 0.3545658819014293, 'advantage': 0.5208849388235207, 'market': 0.6901759060560468, 'people': 0.38800974394110616}
+/Users/sf/Desktop/FLASH/api_server.py:961: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data=metrics.dict(),
+/Users/sf/Desktop/FLASH/api_server.py:970: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  key_insights=generate_insights(metrics.dict(), evaluation['adjusted_probability'], evaluation['adjusted_pillar_scores']),
+/Users/sf/Desktop/FLASH/api_server.py:972: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  recommendation=generate_recommendation(evaluation['adjusted_probability'], evaluation['adjusted_pillar_scores'], metrics.dict()),
+2025-05-25 20:30:10,922 - __main__ - INFO - Response pillar_scores: {'capital': 0.3045658819014293, 'advantage': 0.5708849388235208, 'market': 0.5901759060560469, 'people': 0.43800974394110614}
+2025-05-25 20:30:10,922 - __main__ - INFO - Full response dict: {'success_probability': 0.4222799818684718, 'confidence_interval': {'lower': 0.339688842435124, 'upper': 0.5048711213018197}, 'risk_level': 'High Risk', 'key_insights': ['📈 Strong growth: 139.0% YoY revenue growth', '💎 Excellent NDR: 130.0% - strong expansion revenue', '⚠️ High customer concentration risk: 75.0%'], 'pillar_scores': {'capital': 0.3045658819014293, 'advantage': 0.5708849388235208, 'market': 0.5901759060560469, 'people': 0.43800974394110614}, 'recommendation': '🔶 Significant challenges - immediate action required. PRIORITY IMPROVEMENTS: • 📊 Extend runway to 18+ months. Focus on revenue growth or raise bridge round. • 🤝 Strengthen leadership team and add board members with relevant exits. KEY TARGETS: runway 18+ months, 30d retention >60%', 'timestamp': datetime.datetime(2025, 5, 25, 20, 30, 10, 922340), 'verdict': 'FAIL', 'strength': 'WEAK', 'weighted_score': 0.48922507052663033, 'critical_failures': [], 'below_threshold': ['capital', 'people'], 'stage_thresholds': {'capital': 0.35, 'advantage': 0.45, 'market': 0.4, 'people': 0.5}}
+/Users/sf/Desktop/FLASH/api_server.py:1003: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  feature_dict = metrics.dict()
+2025-05-25 20:30:10,952 - __main__ - INFO - Advanced prediction completed with DNA pattern: category_creator
+INFO:     127.0.0.1:62802 - "POST /predict_advanced HTTP/1.1" 200 OK
+2025-05-25 20:33:28,534 - __main__ - INFO - Prediction request from 127.0.0.1 for stage: series_a
+/Users/sf/Desktop/FLASH/api_server.py:857: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data = pd.DataFrame([metrics.dict()])
+/Users/sf/Desktop/FLASH/api_server.py:902: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  stage_data = pd.DataFrame([metrics.dict()])
+2025-05-25 20:33:28,568 - __main__ - INFO - Stage model prediction: 0.500, Base: 0.371, Final: 0.448
+2025-05-25 20:33:28,573 - __main__ - INFO - Calculated pillar scores using v2 models: {'capital': 0.28613814437969165, 'advantage': 0.4863428454213726, 'market': 0.3608679335497637, 'people': 0.6630828195702775}
+/Users/sf/Desktop/FLASH/api_server.py:961: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data=metrics.dict(),
+/Users/sf/Desktop/FLASH/api_server.py:970: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  key_insights=generate_insights(metrics.dict(), evaluation['adjusted_probability'], evaluation['adjusted_pillar_scores']),
+/Users/sf/Desktop/FLASH/api_server.py:972: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  recommendation=generate_recommendation(evaluation['adjusted_probability'], evaluation['adjusted_pillar_scores'], metrics.dict()),
+2025-05-25 20:33:28,574 - __main__ - INFO - Response pillar_scores: {'capital': 0.23613814437969166, 'advantage': 0.4863428454213726, 'market': 0.3608679335497637, 'people': 0.6130828195702774}
+2025-05-25 20:33:28,574 - __main__ - INFO - Full response dict: {'success_probability': 0.4484604987550132, 'confidence_interval': {'lower': 0.40159818519887774, 'upper': 0.49532281231114866}, 'risk_level': 'High Risk', 'key_insights': ['💸 Capital concerns - focus on fundraising or revenue'], 'pillar_scores': {'capital': 0.23613814437969166, 'advantage': 0.4863428454213726, 'market': 0.3608679335497637, 'people': 0.6130828195702774}, 'recommendation': '🔶 Significant challenges - immediate action required. CRITICAL FIXES: • 🚨 URGENT: Raise funding immediately or drastically cut burn. Target 18+ months runway. KEY TARGETS: 30d retention >60%', 'timestamp': datetime.datetime(2025, 5, 25, 20, 33, 28, 574329), 'verdict': 'FAIL', 'strength': 'WEAK', 'weighted_score': 0.4366181707823604, 'critical_failures': [], 'below_threshold': ['capital', 'market'], 'stage_thresholds': {'capital': 0.35, 'advantage': 0.45, 'market': 0.4, 'people': 0.5}}
+/Users/sf/Desktop/FLASH/api_server.py:1003: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  feature_dict = metrics.dict()
+2025-05-25 20:33:28,604 - __main__ - INFO - Advanced prediction completed with DNA pattern: category_creator
+INFO:     127.0.0.1:62967 - "POST /predict_advanced HTTP/1.1" 200 OK
+2025-05-25 20:46:16,274 - __main__ - INFO - Prediction request from 127.0.0.1 for stage: seed
+/Users/sf/Desktop/FLASH/api_server.py:857: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data = pd.DataFrame([metrics.dict()])
+/Users/sf/Desktop/FLASH/api_server.py:902: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  stage_data = pd.DataFrame([metrics.dict()])
+2025-05-25 20:46:16,310 - __main__ - INFO - Stage model prediction: 0.500, Base: 0.495, Final: 0.498
+2025-05-25 20:46:16,317 - __main__ - INFO - Calculated pillar scores using v2 models: {'capital': 0.28874382229889073, 'advantage': 0.5041596556721197, 'market': 0.557325131000273, 'people': 0.6736976351746533}
+/Users/sf/Desktop/FLASH/api_server.py:961: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data=metrics.dict(),
+/Users/sf/Desktop/FLASH/api_server.py:970: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  key_insights=generate_insights(metrics.dict(), evaluation['adjusted_probability'], evaluation['adjusted_pillar_scores']),
+/Users/sf/Desktop/FLASH/api_server.py:972: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  recommendation=generate_recommendation(evaluation['adjusted_probability'], evaluation['adjusted_pillar_scores'], metrics.dict()),
+2025-05-25 20:46:16,318 - __main__ - INFO - Response pillar_scores: {'capital': 0.23874382229889074, 'advantage': 0.40415965567211976, 'market': 0.507325131000273, 'people': 0.7736976351746533}
+2025-05-25 20:46:16,318 - __main__ - INFO - Full response dict: {'success_probability': 0.45, 'confidence_interval': {'lower': 0.4520532653022716, 'upper': 0.5441870952366168}, 'risk_level': 'High Risk', 'key_insights': ['⚠️ Warning: Runway below 12 months - plan next raise', '💸 Capital concerns - focus on fundraising or revenue', '👥 World-class team with proven experience', '💎 Excellent NDR: 125.0% - strong expansion revenue'], 'pillar_scores': {'capital': 0.23874382229889074, 'advantage': 0.40415965567211976, 'market': 0.507325131000273, 'people': 0.7736976351746533}, 'recommendation': '⚠️ Moderate risk - focus on key improvements. CRITICAL FIXES: • 🚨 URGENT: Raise funding immediately or drastically cut burn. Target 18+ months runway. KEY TARGETS: runway 18+ months, 30d retention >60%', 'timestamp': datetime.datetime(2025, 5, 25, 20, 46, 16, 318152), 'verdict': 'FAIL', 'strength': 'WEAK', 'weighted_score': 0.48925235270514567, 'critical_failures': [], 'below_threshold': ['capital', 'advantage'], 'stage_thresholds': {'capital': 0.35, 'advantage': 0.45, 'market': 0.4, 'people': 0.5}}
+/Users/sf/Desktop/FLASH/api_server.py:1003: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  feature_dict = metrics.dict()
+2025-05-25 20:46:16,351 - __main__ - INFO - Advanced prediction completed with DNA pattern: unknown
+INFO:     127.0.0.1:63307 - "POST /predict_advanced HTTP/1.1" 200 OK
+2025-05-25 20:51:02,904 - __main__ - INFO - Prediction request from 127.0.0.1 for stage: seed
+/Users/sf/Desktop/FLASH/api_server.py:857: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data = pd.DataFrame([metrics.dict()])
+/Users/sf/Desktop/FLASH/api_server.py:902: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  stage_data = pd.DataFrame([metrics.dict()])
+2025-05-25 20:51:02,941 - __main__ - INFO - Stage model prediction: 0.500, Base: 0.244, Final: 0.398
+2025-05-25 20:51:02,948 - __main__ - INFO - Calculated pillar scores using v2 models: {'capital': 0.2812466886892398, 'advantage': 0.5588719933511531, 'market': 0.15919479553418403, 'people': 0.4027090767273532}
+/Users/sf/Desktop/FLASH/api_server.py:961: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data=metrics.dict(),
+/Users/sf/Desktop/FLASH/api_server.py:970: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  key_insights=generate_insights(metrics.dict(), evaluation['adjusted_probability'], evaluation['adjusted_pillar_scores']),
+/Users/sf/Desktop/FLASH/api_server.py:972: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  recommendation=generate_recommendation(evaluation['adjusted_probability'], evaluation['adjusted_pillar_scores'], metrics.dict()),
+2025-05-25 20:51:02,948 - __main__ - INFO - Response pillar_scores: {'capital': 0.2312466886892398, 'advantage': 0.5088719933511531, 'market': 0.15919479553418403, 'people': 0.5027090767273532}
+2025-05-25 20:51:02,948 - __main__ - INFO - Full response dict: {'success_probability': 0.3976508601004112, 'confidence_interval': {'lower': 0.26823038791132414, 'upper': 0.5270713322894982}, 'risk_level': 'Critical Risk', 'key_insights': ['🚨 CRITICAL: Less than 6 months runway - immediate funding needed', '💸 Capital concerns - focus on fundraising or revenue', '📊 Market challenges - improve PMF and retention'], 'pillar_scores': {'capital': 0.2312466886892398, 'advantage': 0.5088719933511531, 'market': 0.15919479553418403, 'people': 0.5027090767273532}, 'recommendation': '🔶 Significant challenges - immediate action required. CRITICAL FIXES: • 🚨 URGENT: Raise funding immediately or drastically cut burn. Target 18+ months runway. • 🎯 Fix product-market fit urgently. Consider pivot if retention < 40% at 30 days. KEY TARGETS: runway 18+ months, NDR >110%, 30d retention >60%', 'timestamp': datetime.datetime(2025, 5, 25, 20, 51, 2, 948768), 'verdict': 'FAIL', 'strength': 'CRITICAL', 'weighted_score': 0.3643869038085782, 'critical_failures': ['Less than 3 months runway - immediate funding required'], 'below_threshold': ['capital', 'market'], 'stage_thresholds': {'capital': 0.35, 'advantage': 0.45, 'market': 0.4, 'people': 0.5}}
+/Users/sf/Desktop/FLASH/api_server.py:1003: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  feature_dict = metrics.dict()
+2025-05-25 20:51:02,980 - __main__ - INFO - Advanced prediction completed with DNA pattern: pivot_master
+INFO:     127.0.0.1:63521 - "POST /predict_advanced HTTP/1.1" 200 OK

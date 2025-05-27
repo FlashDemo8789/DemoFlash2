@@ -1,0 +1,302 @@
+{
+  "SaaS": {
+    "top_features": {
+      "feature": {
+        "11": "burn_multiple",
+        "17": "funding_efficiency",
+        "1": "annual_revenue_run_rate",
+        "0": "total_capital_raised_usd",
+        "7": "customer_count",
+        "5": "ltv_cac_ratio",
+        "2": "team_size_full_time",
+        "18": "team_industry_fit",
+        "3": "runway_months",
+        "13": "mrr_per_customer"
+      },
+      "importance": {
+        "11": 21.91782407960633,
+        "17": 18.644914581523672,
+        "1": 9.302970642333804,
+        "0": 6.804142043994537,
+        "7": 4.902514815424151,
+        "5": 4.225429004407588,
+        "2": 3.6241546772913207,
+        "18": 3.11106010299981,
+        "3": 2.988316933520608,
+        "13": 2.8174073155161787
+      }
+    },
+    "sample_count": 25019,
+    "success_rate": 0.4480994444222391
+  },
+  "AI/ML": {
+    "top_features": {
+      "feature": {
+        "15": "funding_efficiency",
+        "2": "team_size_full_time",
+        "0": "total_capital_raised_usd",
+        "14": "ai_team_strength",
+        "5": "patent_count",
+        "8": "domain_expertise_years_avg",
+        "1": "annual_revenue_run_rate",
+        "10": "switching_cost_score",
+        "7": "scalability_score",
+        "11": "customer_count"
+      },
+      "importance": {
+        "15": 0.6195058822631836,
+        "2": 0.03175874799489975,
+        "0": 0.030139924958348274,
+        "14": 0.029679154977202415,
+        "5": 0.028624771162867546,
+        "8": 0.028210733085870743,
+        "1": 0.027551935985684395,
+        "10": 0.02659502997994423,
+        "7": 0.02657209150493145,
+        "11": 0.026393206790089607
+      }
+    },
+    "sample_count": 15095,
+    "success_rate": 0.4547201059953627
+  },
+  "FinTech": {
+    "top_features": {
+      "feature": {
+        "15": "funding_efficiency",
+        "1": "annual_revenue_run_rate",
+        "14": "transaction_scale",
+        "9": "customer_concentration_percent",
+        "0": "total_capital_raised_usd",
+        "8": "gross_margin_percent",
+        "2": "team_size_full_time",
+        "7": "years_experience_avg",
+        "3": "runway_months",
+        "16": "team_industry_fit"
+      },
+      "importance": {
+        "15": 34.48635590022549,
+        "1": 9.268036793298624,
+        "14": 7.814344536470823,
+        "9": 5.981768646760219,
+        "0": 5.841028544827462,
+        "8": 4.978797295769178,
+        "2": 4.950191969503495,
+        "7": 4.141848488090942,
+        "3": 4.107732462245027,
+        "16": 3.9611660548995915
+      }
+    },
+    "sample_count": 14894,
+    "success_rate": 0.4325903048207332
+  },
+  "E-commerce": {
+    "top_features": {
+      "feature": {
+        "9": "burn_multiple",
+        "15": "funding_efficiency",
+        "13": "inventory_efficiency",
+        "2": "team_size_full_time",
+        "1": "annual_revenue_run_rate",
+        "16": "team_industry_fit",
+        "14": "brand_power",
+        "8": "user_growth_rate_percent",
+        "3": "runway_months",
+        "6": "gross_margin_percent"
+      },
+      "importance": {
+        "9": 0.4269119203090668,
+        "15": 0.1867465227842331,
+        "13": 0.050709355622529984,
+        "2": 0.03373582288622856,
+        "1": 0.029123645275831223,
+        "16": 0.0259602889418602,
+        "14": 0.025668194517493248,
+        "8": 0.025667892768979073,
+        "3": 0.025572462007403374,
+        "6": 0.025468921288847923
+      }
+    },
+    "sample_count": 10073,
+    "success_rate": 0.3529236573016976
+  },
+  "HealthTech": {
+    "top_features": {
+      "feature": {
+        "15": "funding_efficiency",
+        "1": "annual_revenue_run_rate",
+        "0": "total_capital_raised_usd",
+        "2": "team_size_full_time",
+        "14": "provider_readiness",
+        "9": "customer_count",
+        "3": "runway_months",
+        "10": "product_retention_90d",
+        "12": "clinical_credibility",
+        "6": "years_experience_avg"
+      },
+      "importance": {
+        "15": 0.22672127169863585,
+        "1": 0.17723221842228382,
+        "0": 0.13039141871208765,
+        "2": 0.10979089206091933,
+        "14": 0.10529620855745025,
+        "9": 0.05955185548258747,
+        "3": 0.050643689244895235,
+        "10": 0.0322799388925814,
+        "12": 0.02320566751400003,
+        "6": 0.021703016088511395
+      }
+    },
+    "sample_count": 9926,
+    "success_rate": 0.3196655248841427
+  },
+  "EdTech": {
+    "top_features": {
+      "feature": {
+        "6": "burn_multiple",
+        "9": "funding_efficiency",
+        "1": "annual_revenue_run_rate",
+        "0": "total_capital_raised_usd",
+        "8": "operational_excellence",
+        "10": "team_industry_fit",
+        "5": "gross_margin_percent",
+        "2": "team_size_full_time",
+        "7": "market_position",
+        "3": "runway_months"
+      },
+      "importance": {
+        "6": 0.5271917581558228,
+        "9": 0.07743475586175919,
+        "1": 0.0700044259428978,
+        "0": 0.06604540348052979,
+        "8": 0.039767760783433914,
+        "10": 0.039086781442165375,
+        "5": 0.03857162967324257,
+        "2": 0.03747217729687691,
+        "7": 0.03524712473154068,
+        "3": 0.03521116077899933
+      }
+    },
+    "sample_count": 8082,
+    "success_rate": 0.37255629794605294
+  },
+  "BioTech": {
+    "top_features": {
+      "feature": {
+        "16": "funding_efficiency",
+        "1": "annual_revenue_run_rate",
+        "2": "team_size_full_time",
+        "8": "total_capital_raised_usd",
+        "0": "total_capital_raised_usd",
+        "14": "capital_efficiency_biotech",
+        "3": "runway_months",
+        "11": "founding_year",
+        "17": "team_industry_fit",
+        "15": "team_pedigree"
+      },
+      "importance": {
+        "16": 0.17780864841318725,
+        "1": 0.17272690278830732,
+        "2": 0.1220954350875718,
+        "8": 0.11618415849165625,
+        "0": 0.11132324293996777,
+        "14": 0.05185224712797892,
+        "3": 0.05003291218264731,
+        "11": 0.046188141012437296,
+        "17": 0.0248725989515572,
+        "15": 0.024781368425435178
+      }
+    },
+    "sample_count": 4991,
+    "success_rate": 0.34221598877980364
+  },
+  "Gaming": {
+    "top_features": {
+      "feature": {
+        "6": "burn_multiple",
+        "1": "annual_revenue_run_rate",
+        "9": "funding_efficiency",
+        "8": "operational_excellence",
+        "0": "total_capital_raised_usd",
+        "7": "market_position",
+        "2": "team_size_full_time",
+        "3": "runway_months",
+        "5": "gross_margin_percent",
+        "4": "revenue_growth_rate_percent"
+      },
+      "importance": {
+        "6": 0.49792277812957764,
+        "1": 0.06486888229846954,
+        "9": 0.06192511320114136,
+        "8": 0.053041234612464905,
+        "0": 0.049155522137880325,
+        "7": 0.04897856339812279,
+        "2": 0.047670379281044006,
+        "3": 0.04668558016419411,
+        "5": 0.04571490362286568,
+        "4": 0.04241693764925003
+      }
+    },
+    "sample_count": 4986,
+    "success_rate": 0.37083834737264343
+  },
+  "Cybersecurity": {
+    "top_features": {
+      "feature": {
+        "6": "burn_multiple",
+        "1": "annual_revenue_run_rate",
+        "0": "total_capital_raised_usd",
+        "9": "funding_efficiency",
+        "7": "market_position",
+        "3": "runway_months",
+        "10": "team_industry_fit",
+        "4": "revenue_growth_rate_percent",
+        "5": "gross_margin_percent",
+        "2": "team_size_full_time"
+      },
+      "importance": {
+        "6": 0.3925711512565613,
+        "1": 0.10354193300008774,
+        "0": 0.0915510281920433,
+        "9": 0.08200403302907944,
+        "7": 0.0538206584751606,
+        "3": 0.04928044602274895,
+        "10": 0.047769930213689804,
+        "4": 0.046843111515045166,
+        "5": 0.04660174623131752,
+        "2": 0.04471053183078766
+      }
+    },
+    "sample_count": 4924,
+    "success_rate": 0.3667749796913079
+  },
+  "Other": {
+    "top_features": {
+      "feature": {
+        "9": "funding_efficiency",
+        "6": "burn_multiple",
+        "2": "team_size_full_time",
+        "1": "annual_revenue_run_rate",
+        "0": "total_capital_raised_usd",
+        "3": "runway_months",
+        "4": "revenue_growth_rate_percent",
+        "5": "gross_margin_percent",
+        "7": "market_position",
+        "10": "team_industry_fit"
+      },
+      "importance": {
+        "9": 0.2482915073633194,
+        "6": 0.16991779208183289,
+        "2": 0.15305942296981812,
+        "1": 0.08203227072954178,
+        "0": 0.056444667279720306,
+        "3": 0.05180557444691658,
+        "4": 0.05044259503483772,
+        "5": 0.04849424958229065,
+        "7": 0.04800308495759964,
+        "10": 0.04600225389003754
+      }
+    },
+    "sample_count": 2010,
+    "success_rate": 0.33930348258706466
+  }
+}

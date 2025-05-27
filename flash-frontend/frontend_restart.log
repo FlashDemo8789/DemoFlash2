@@ -1,0 +1,887 @@
+
+> flash-frontend@0.1.0 start
+> GENERATE_SOURCEMAP=false react-scripts start
+
+(node:78313) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:78313) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Failed to compile.
+
+Attempted import error: './components/v3/AnalysisOrb' does not contain a default export (imported as 'AnalysisOrb').
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+ERROR in ./src/App.v3.tsx 194:42-53
+export 'default' (imported as 'AnalysisOrb') was not found in './components/v3/AnalysisOrb' (possible exports: AnalysisOrb, MinimalResults)
+
+webpack compiled with 1 error and 1 warning
+ERROR in src/App.v3.tsx:6:8
+TS2613: Module '"/Users/sf/Desktop/FLASH/flash-frontend/src/components/v3/AnalysisOrb"' has no default export. Did you mean to use 'import { AnalysisOrb } from "/Users/sf/Desktop/FLASH/flash-frontend/src/components/v3/AnalysisOrb"' instead?
+    4 | import DataCollectionV2 from './components/v2/DataCollectionV2';
+    5 | import ResultsRouter from './components/ResultsRouter';
+  > 6 | import AnalysisOrb from './components/v3/AnalysisOrb';
+      |        ^^^^^^^^^^^
+    7 | import './App.v2.css';
+    8 |
+    9 | type AppState = 'landing' | 'collection' | 'analyzing' | 'results';
+
+ERROR in src/components/ResultsRouter.tsx:26:11
+TS2739: Type '{ results: any; }' is missing the following properties from type 'ResultsPageV2Props': onBack, isDarkMode
+    24 |
+    25 |   // Otherwise use the existing V2 results page
+  > 26 |   return <ResultsPageV2 results={results} />;
+       |           ^^^^^^^^^^^^^
+    27 | };
+    28 |
+    29 | export default ResultsRouter;
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+ERROR in src/App.v3.tsx:177:16
+TS2741: Property 'isAnalyzing' is missing in type '{}' but required in type 'AnalysisOrbProps'.
+    175 |           >
+    176 |             <div className="analyzing-content-v2">
+  > 177 |               <AnalysisOrb />
+        |                ^^^^^^^^^^^
+    178 |               <motion.h2
+    179 |                 className="analyzing-text-v2"
+    180 |                 animate={{ opacity: [0.5, 1, 0.5] }}
+
+ERROR in src/components/ResultsRouter.tsx:26:11
+TS2739: Type '{ results: any; }' is missing the following properties from type 'ResultsPageV2Props': onBack, isDarkMode
+    24 |
+    25 |   // Otherwise use the existing V2 results page
+  > 26 |   return <ResultsPageV2 results={results} />;
+       |           ^^^^^^^^^^^^^
+    27 | };
+    28 |
+    29 | export default ResultsRouter;
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+ERROR in src/App.v3.tsx:177:16
+TS2741: Property 'isAnalyzing' is missing in type '{}' but required in type 'AnalysisOrbProps'.
+    175 |           >
+    176 |             <div className="analyzing-content-v2">
+  > 177 |               <AnalysisOrb />
+        |                ^^^^^^^^^^^
+    178 |               <motion.h2
+    179 |                 className="analyzing-text-v2"
+    180 |                 animate={{ opacity: [0.5, 1, 0.5] }}
+
+ERROR in src/components/ResultsRouter.tsx:28:11
+TS2739: Type '{ results: any; }' is missing the following properties from type 'ResultsPageV2Props': onBack, isDarkMode
+    26 |
+    27 |   // Otherwise use the existing V2 results page
+  > 28 |   return <ResultsPageV2 results={results} />;
+       |           ^^^^^^^^^^^^^
+    29 | };
+    30 |
+    31 | export default ResultsRouter;
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+ERROR in src/App.v3.tsx:177:16
+TS2741: Property 'isAnalyzing' is missing in type '{}' but required in type 'AnalysisOrbProps'.
+    175 |           >
+    176 |             <div className="analyzing-content-v2">
+  > 177 |               <AnalysisOrb />
+        |                ^^^^^^^^^^^
+    178 |               <motion.h2
+    179 |                 className="analyzing-text-v2"
+    180 |                 animate={{ opacity: [0.5, 1, 0.5] }}
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/AppV3.tsx
+  Line 15:10:  'useAdvancedAPI' is assigned a value but never used     @typescript-eslint/no-unused-vars
+  Line 15:26:  'setUseAdvancedAPI' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/AppV3.tsx
+  Line 15:10:  'useAdvancedAPI' is assigned a value but never used     @typescript-eslint/no-unused-vars
+  Line 15:26:  'setUseAdvancedAPI' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+ERROR in src/AppV3.tsx:123:15
+TS2322: Type '{ startupData: StartupData; onComplete: (analysisResults: PredictionResult) => void; onBack: () => void; useAdvancedAPI: boolean; }' is not assignable to type 'IntrinsicAttributes & AnalysisPageProps'.
+  Property 'useAdvancedAPI' does not exist on type 'IntrinsicAttributes & AnalysisPageProps'.
+    121 |               onComplete={handleAnalysisComplete}
+    122 |               onBack={() => setAppState('collect')}
+  > 123 |               useAdvancedAPI={useAdvancedAPI}
+        |               ^^^^^^^^^^^^^^
+    124 |             />
+    125 |           </motion.div>
+    126 |         )}
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 57:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 57:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 57:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 57:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 57:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v3.tsx
+  Line 13:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 7:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AdvancedResultsPage.tsx
+  Line 16:5:  'stage_prediction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 24:5:  'weighted_score' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 57:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+The build failed because the process exited too early. This probably means the system ran out of memory or someone called `kill -9` on the process.

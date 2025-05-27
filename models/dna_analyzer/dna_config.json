@@ -1,0 +1,66 @@
+{
+  "dna_components": {
+    "growth_velocity": [
+      "revenue_growth_rate_percent",
+      "user_growth_rate_percent",
+      "team_growth_rate"
+    ],
+    "efficiency_genes": [
+      "burn_multiple",
+      "ltv_cac_ratio",
+      "gross_margin_percent"
+    ],
+    "market_dominance": [
+      "market_share",
+      "customer_concentration_percent",
+      "net_dollar_retention_percent"
+    ],
+    "founder_dna": [
+      "years_experience_avg",
+      "prior_successful_exits_count",
+      "domain_expertise_years_avg"
+    ],
+    "product_evolution": [
+      "product_stage",
+      "product_retention_30d",
+      "dau_mau_ratio"
+    ],
+    "capital_metabolism": [
+      "capital_efficiency",
+      "runway_months",
+      "funding_velocity"
+    ]
+  },
+  "pattern_types": {
+    "rocket_ship": {
+      "growth": 0.9,
+      "efficiency": 0.7,
+      "retention": 0.8
+    },
+    "slow_burn": {
+      "growth": 0.4,
+      "efficiency": 0.9,
+      "retention": 0.9
+    },
+    "blitzscale": {
+      "growth": 0.95,
+      "efficiency": 0.3,
+      "retention": 0.6
+    },
+    "sustainable": {
+      "growth": 0.6,
+      "efficiency": 0.8,
+      "retention": 0.85
+    },
+    "pivot_master": {
+      "growth": 0.5,
+      "efficiency": 0.6,
+      "retention": 0.7
+    },
+    "category_creator": {
+      "growth": 0.7,
+      "efficiency": 0.5,
+      "retention": 0.75
+    }
+  }
+}

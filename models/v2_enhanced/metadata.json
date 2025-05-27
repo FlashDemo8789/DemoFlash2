@@ -1,0 +1,14 @@
+{
+  "version": "2.0-Enhanced",
+  "framework": "CatBoost Ensemble + Stacking",
+  "performance_metrics": {
+    "test_auc": 0.7730459576625892,
+    "test_accuracy": 0.71865,
+    "test_f1": 0.6068059534623716,
+    "val_auc": 0.7757076259606552,
+    "ensemble_models": 4,
+    "features_used": 59,
+    "engineered_features": 14
+  },
+  "timestamp": "2025-05-24T22:31:54.996098"
+}

@@ -1,0 +1,32 @@
+{
+  "total_rows": 100000,
+  "total_features": 45,
+  "success_rate": 0.40302,
+  "features_by_pillar": {
+    "capital": 12,
+    "advantage": 11,
+    "market": 12,
+    "people": 10
+  },
+  "stage_distribution": {
+    "Series A": 30186,
+    "Seed": 29932,
+    "Series B": 20024,
+    "Pre-seed": 14881,
+    "Series C+": 4977
+  },
+  "sector_distribution": {
+    "SaaS": 25019,
+    "AI/ML": 15095,
+    "FinTech": 14894,
+    "E-commerce": 10073,
+    "HealthTech": 9926,
+    "EdTech": 8082,
+    "BioTech": 4991,
+    "Gaming": 4986,
+    "Cybersecurity": 4924,
+    "Other": 2010
+  },
+  "data_quality_valid": false,
+  "timestamp": "2025-05-24T21:57:03.392546"
+}

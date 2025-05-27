@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-05-25T17:07:43.439510",
+  "accuracy": 0.71635,
+  "auc": 0.7733220070576206,
+  "stages_trained": [
+    "pre_seed",
+    "seed",
+    "series_a",
+    "series_b",
+    "series_c"
+  ]
+}

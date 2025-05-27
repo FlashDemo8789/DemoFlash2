@@ -1,0 +1,117 @@
+{
+  "SaaS": {
+    "key_metrics": [
+      "net_dollar_retention_percent",
+      "ltv_cac_ratio",
+      "gross_margin_percent"
+    ],
+    "success_thresholds": {
+      "net_dollar_retention_percent": 110,
+      "ltv_cac_ratio": 3,
+      "gross_margin_percent": 70,
+      "monthly_recurring_revenue": 100000,
+      "churn_rate": 5
+    },
+    "feature_weights": {
+      "recurring_revenue": 0.35,
+      "unit_economics": 0.3,
+      "growth_efficiency": 0.2,
+      "market_position": 0.15
+    }
+  },
+  "FinTech": {
+    "key_metrics": [
+      "regulatory_advantage_present",
+      "has_data_moat",
+      "gross_margin_percent"
+    ],
+    "success_thresholds": {
+      "regulatory_compliance": 1,
+      "security_score": 0.8,
+      "transaction_volume": 1000000,
+      "fraud_rate": 0.1
+    },
+    "feature_weights": {
+      "regulatory_position": 0.3,
+      "trust_security": 0.25,
+      "scale_efficiency": 0.25,
+      "partnerships": 0.2
+    }
+  },
+  "HealthTech": {
+    "key_metrics": [
+      "regulatory_advantage_present",
+      "patent_count",
+      "years_experience_avg"
+    ],
+    "success_thresholds": {
+      "regulatory_approval": 1,
+      "clinical_validation": 0.8,
+      "provider_adoption": 0.3,
+      "patient_outcomes": 0.7
+    },
+    "feature_weights": {
+      "clinical_evidence": 0.35,
+      "regulatory_pathway": 0.3,
+      "provider_network": 0.2,
+      "patient_engagement": 0.15
+    }
+  },
+  "E-commerce": {
+    "key_metrics": [
+      "customer_count",
+      "ltv_cac_ratio",
+      "gross_margin_percent"
+    ],
+    "success_thresholds": {
+      "customer_count": 10000,
+      "repeat_purchase_rate": 0.3,
+      "gross_margin_percent": 40,
+      "inventory_turnover": 6
+    },
+    "feature_weights": {
+      "customer_acquisition": 0.3,
+      "operational_efficiency": 0.25,
+      "brand_strength": 0.25,
+      "supply_chain": 0.2
+    }
+  },
+  "AI/ML": {
+    "key_metrics": [
+      "tech_differentiation_score",
+      "patent_count",
+      "has_data_moat"
+    ],
+    "success_thresholds": {
+      "model_accuracy": 0.85,
+      "data_advantage": 1,
+      "compute_efficiency": 0.7,
+      "api_adoption": 0.4
+    },
+    "feature_weights": {
+      "technical_moat": 0.4,
+      "data_advantage": 0.3,
+      "market_application": 0.2,
+      "team_expertise": 0.1
+    }
+  },
+  "BioTech": {
+    "key_metrics": [
+      "patent_count",
+      "years_experience_avg",
+      "total_capital_raised_usd"
+    ],
+    "success_thresholds": {
+      "patent_count": 5,
+      "clinical_pipeline": 3,
+      "fda_interactions": 1,
+      "partnership_value": 10000000
+    },
+    "feature_weights": {
+      "ip_portfolio": 0.35,
+      "clinical_progress": 0.3,
+      "team_credentials": 0.2,
+      "capital_efficiency": 0.15
+    }
+  }
+}

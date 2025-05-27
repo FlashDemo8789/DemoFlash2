@@ -1,0 +1,30 @@
+{
+  "temporal_weights": {
+    "short_term": {
+      "cash_runway": 0.35,
+      "burn_rate": 0.25,
+      "revenue_growth": 0.15,
+      "product_metrics": 0.15,
+      "team_stability": 0.1
+    },
+    "medium_term": {
+      "product_market_fit": 0.3,
+      "unit_economics": 0.25,
+      "market_dynamics": 0.2,
+      "team_growth": 0.15,
+      "competitive_position": 0.1
+    },
+    "long_term": {
+      "market_size": 0.25,
+      "moat_strength": 0.25,
+      "scalability": 0.2,
+      "founder_quality": 0.2,
+      "network_effects": 0.1
+    }
+  },
+  "decay_factors": {
+    "short_term": 0.9,
+    "medium_term": 0.7,
+    "long_term": 0.5
+  }
+}

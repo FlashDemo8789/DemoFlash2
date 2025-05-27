@@ -1,0 +1,30 @@
+/Users/sf/Desktop/FLASH/api_server.py:137: PydanticDeprecatedSince20: Pydantic V1 style `@validator` validators are deprecated. You should migrate to Pydantic V2 style `@field_validator` validators, see the migration guide for more details. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  @validator('runway_months', pre=True, always=True)
+/Users/sf/Desktop/FLASH/api_server.py:145: PydanticDeprecatedSince20: Pydantic V1 style `@validator` validators are deprecated. You should migrate to Pydantic V2 style `@field_validator` validators, see the migration guide for more details. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  @validator('burn_multiple', pre=True, always=True)
+/Users/sf/Desktop/FLASH/api_server.py:343: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [69354]
+INFO:     Waiting for application startup.
+INFO:__main__:Loading models...
+INFO:__main__:Loaded conservative model
+INFO:__main__:Loaded aggressive model
+INFO:__main__:Loaded balanced model
+INFO:__main__:Loaded deep model
+INFO:__main__:Loaded meta_logistic model
+INFO:__main__:Loaded meta_nn model
+INFO:__main__:Loaded meta_catboost model
+INFO:__main__:Loaded capital pillar model
+INFO:__main__:Loaded advantage pillar model
+INFO:__main__:Loaded market pillar model
+INFO:__main__:Loaded people pillar model
+INFO:__main__:Successfully loaded 7 ensemble models and 4 pillar models
+INFO:     Application startup complete.
+ERROR:    [Errno 48] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.

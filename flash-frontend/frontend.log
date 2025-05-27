@@ -1,0 +1,1311 @@
+
+> flash-frontend@0.1.0 start
+> GENERATE_SOURCEMAP=false react-scripts start
+
+(node:78920) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:78920) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view flash-frontend in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.32.144:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/AppV3.tsx
+  Line 6:10:  'EnhancedResults' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 6:10:  'EnhancedResults' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/AppV3.tsx
+  Line 5:10:  'MinimalResults' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 5:10:  'MinimalResults' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 168:14:  'MinimalResults' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 5:10:  'MinimalResults' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 4:10:  'EnhancedResults' is defined but never used                                                                                        @typescript-eslint/no-unused-vars
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+ERROR in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 168:14:  'MinimalResults' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+ERROR in src/components/v3/AnalysisPage.tsx:168:14
+TS2304: Cannot find name 'MinimalResults'.
+    166 |             transition={{ duration: 0.6 }}
+    167 |           >
+  > 168 |             <MinimalResults data={results} />
+        |              ^^^^^^^^^^^^^^
+    169 |           </motion.div>
+    170 |         ) : (
+    171 |           <motion.div
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/AppV3.tsx
+  Line 5:10:  'MinimalResults' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 5:10:  'MinimalResults' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+ERROR in src/components/v3/AdvancedAnalysisModal.tsx:142:30
+TS2746: This JSX tag's 'children' prop expects a single child of type 'ReactNode', but multiple children were provided.
+    140 |                         <ul>
+    141 |                           {Object.entries(data.industry_insights.benchmarks).map(([metric, value]) => (
+  > 142 |                             <li key={metric}>
+        |                              ^^
+    143 |                               {metric.replace(/_/g, ' ')}: {value}
+    144 |                             </li>
+    145 |                           ))}
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 1:17:  'useState' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 3:10:  'AdvancedAnalysisModal' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 1:17:  'useState' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 3:10:  'AdvancedAnalysisModal' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 3:10:   'AdvancedAnalysisModal' is defined but never used          @typescript-eslint/no-unused-vars
+  Line 11:10:  'showAdvancedModal' is assigned a value but never used     @typescript-eslint/no-unused-vars
+  Line 11:29:  'setShowAdvancedModal' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 3:10:   'AdvancedAnalysisModal' is defined but never used          @typescript-eslint/no-unused-vars
+  Line 11:10:  'showAdvancedModal' is assigned a value but never used     @typescript-eslint/no-unused-vars
+  Line 11:29:  'setShowAdvancedModal' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+ERROR in src/components/v3/FullAnalysisView.tsx:102:51
+TS18046: 'score' is of type 'unknown'.
+    100 |                       <div className="strength-cards">
+    101 |                         {Object.entries(data.pillar_scores)
+  > 102 |                           .filter(([_, score]) => score >= 0.6)
+        |                                                   ^^^^^
+    103 |                           .map(([pillar, score]) => (
+    104 |                             <div key={pillar} className="strength-card">
+    105 |                               <div className="strength-score">{Math.round(score * 100)}%</div>
+
+ERROR in src/components/v3/FullAnalysisView.tsx:105:75
+TS18046: 'score' is of type 'unknown'.
+    103 |                           .map(([pillar, score]) => (
+    104 |                             <div key={pillar} className="strength-card">
+  > 105 |                               <div className="strength-score">{Math.round(score * 100)}%</div>
+        |                                                                           ^^^^^
+    106 |                               <h5>{pillar.charAt(0).toUpperCase() + pillar.slice(1)}</h5>
+    107 |                               <p>{getStrengthDescription(pillar, score)}</p>
+    108 |                             </div>
+
+ERROR in src/components/v3/FullAnalysisView.tsx:107:66
+TS2345: Argument of type 'unknown' is not assignable to parameter of type 'number'.
+    105 |                               <div className="strength-score">{Math.round(score * 100)}%</div>
+    106 |                               <h5>{pillar.charAt(0).toUpperCase() + pillar.slice(1)}</h5>
+  > 107 |                               <p>{getStrengthDescription(pillar, score)}</p>
+        |                                                                  ^^^^^
+    108 |                             </div>
+    109 |                           ))}
+    110 |                       </div>
+
+ERROR in src/components/v3/FullAnalysisView.tsx:181:50
+TS18046: 'threshold' is of type 'unknown'.
+    179 |                       {Object.entries(data.stage_thresholds || {}).map(([pillar, threshold]) => {
+    180 |                         const score = data.pillar_scores[pillar] || 0;
+  > 181 |                         const isAbove = score >= threshold;
+        |                                                  ^^^^^^^^^
+    182 |                         
+    183 |                         return (
+    184 |                           <div key={pillar} className="benchmark-card">
+
+ERROR in src/components/v3/FullAnalysisView.tsx:190:53
+TS18046: 'threshold' is of type 'unknown'.
+    188 |                                 <div 
+    189 |                                   className="threshold-line"
+  > 190 |                                   style={{ left: `${threshold * 100}%` }}
+        |                                                     ^^^^^^^^^
+    191 |                                 >
+    192 |                                   <span className="threshold-label">
+    193 |                                     {Math.round(threshold * 100)}%
+
+ERROR in src/components/v3/FullAnalysisView.tsx:193:49
+TS18046: 'threshold' is of type 'unknown'.
+    191 |                                 >
+    192 |                                   <span className="threshold-label">
+  > 193 |                                     {Math.round(threshold * 100)}%
+        |                                                 ^^^^^^^^^
+    194 |                                   </span>
+    195 |                                 </div>
+    196 |                                 <div 
+
+ERROR in src/components/v3/FullAnalysisView.tsx:210:67
+TS2345: Argument of type 'unknown' is not assignable to parameter of type 'number'.
+    208 |                             </div>
+    209 |                             <p className="benchmark-insight">
+  > 210 |                               {getBenchmarkInsight(pillar, score, threshold, fundingStage)}
+        |                                                                   ^^^^^^^^^
+    211 |                             </p>
+    212 |                           </div>
+    213 |                         );
+
+ERROR in src/components/v3/FullAnalysisView.tsx:263:47
+TS7006: Parameter 'step' implicitly has an 'any' type.
+    261 |                             <p>{rec.description}</p>
+    262 |                             <div className="action-steps">
+  > 263 |                               {rec.steps.map((step, j) => (
+        |                                               ^^^^
+    264 |                                 <div key={j} className="step">
+    265 |                                   <span className="step-number">{j + 1}</span>
+    266 |                                   {step}
+
+ERROR in src/components/v3/FullAnalysisView.tsx:263:53
+TS7006: Parameter 'j' implicitly has an 'any' type.
+    261 |                             <p>{rec.description}</p>
+    262 |                             <div className="action-steps">
+  > 263 |                               {rec.steps.map((step, j) => (
+        |                                                     ^
+    264 |                                 <div key={j} className="step">
+    265 |                                   <span className="step-number">{j + 1}</span>
+    266 |                                   {step}
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+ERROR in src/components/v3/FullAnalysisView.tsx:181:50
+TS18046: 'threshold' is of type 'unknown'.
+    179 |                       {Object.entries(data.stage_thresholds || {}).map(([pillar, threshold]) => {
+    180 |                         const score = data.pillar_scores[pillar] || 0;
+  > 181 |                         const isAbove = score >= threshold;
+        |                                                  ^^^^^^^^^
+    182 |                         
+    183 |                         return (
+    184 |                           <div key={pillar} className="benchmark-card">
+
+ERROR in src/components/v3/FullAnalysisView.tsx:190:53
+TS18046: 'threshold' is of type 'unknown'.
+    188 |                                 <div 
+    189 |                                   className="threshold-line"
+  > 190 |                                   style={{ left: `${threshold * 100}%` }}
+        |                                                     ^^^^^^^^^
+    191 |                                 >
+    192 |                                   <span className="threshold-label">
+    193 |                                     {Math.round(threshold * 100)}%
+
+ERROR in src/components/v3/FullAnalysisView.tsx:193:49
+TS18046: 'threshold' is of type 'unknown'.
+    191 |                                 >
+    192 |                                   <span className="threshold-label">
+  > 193 |                                     {Math.round(threshold * 100)}%
+        |                                                 ^^^^^^^^^
+    194 |                                   </span>
+    195 |                                 </div>
+    196 |                                 <div 
+
+ERROR in src/components/v3/FullAnalysisView.tsx:210:67
+TS2345: Argument of type 'unknown' is not assignable to parameter of type 'number'.
+    208 |                             </div>
+    209 |                             <p className="benchmark-insight">
+  > 210 |                               {getBenchmarkInsight(pillar, score, threshold, fundingStage)}
+        |                                                                   ^^^^^^^^^
+    211 |                             </p>
+    212 |                           </div>
+    213 |                         );
+
+ERROR in src/components/v3/FullAnalysisView.tsx:263:47
+TS7006: Parameter 'step' implicitly has an 'any' type.
+    261 |                             <p>{rec.description}</p>
+    262 |                             <div className="action-steps">
+  > 263 |                               {rec.steps.map((step, j) => (
+        |                                               ^^^^
+    264 |                                 <div key={j} className="step">
+    265 |                                   <span className="step-number">{j + 1}</span>
+    266 |                                   {step}
+
+ERROR in src/components/v3/FullAnalysisView.tsx:263:53
+TS7006: Parameter 'j' implicitly has an 'any' type.
+    261 |                             <p>{rec.description}</p>
+    262 |                             <div className="action-steps">
+  > 263 |                               {rec.steps.map((step, j) => (
+        |                                                     ^
+    264 |                                 <div key={j} className="step">
+    265 |                                   <span className="step-number">{j + 1}</span>
+    266 |                                   {step}
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 4:10:   'FullAnalysisView' is defined but never used              @typescript-eslint/no-unused-vars
+  Line 13:10:  'showFullAnalysis' is assigned a value but never used     @typescript-eslint/no-unused-vars
+  Line 13:28:  'setShowFullAnalysis' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 4:10:   'FullAnalysisView' is defined but never used              @typescript-eslint/no-unused-vars
+  Line 13:10:  'showFullAnalysis' is assigned a value but never used     @typescript-eslint/no-unused-vars
+  Line 13:28:  'setShowFullAnalysis' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:   'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:   'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 78:15:  'scale' is assigned a value but never used          @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:   'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:   'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 78:15:  'scale' is assigned a value but never used          @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:   'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:   'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 78:15:  'scale' is assigned a value but never used          @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:   'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:   'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 78:15:  'scale' is assigned a value but never used          @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:   'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:   'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 78:15:  'scale' is assigned a value but never used          @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:   'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:   'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 78:15:  'scale' is assigned a value but never used          @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:   'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:   'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 78:15:  'scale' is assigned a value but never used          @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:   'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:   'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 78:15:  'scale' is assigned a value but never used          @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:   'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:   'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 78:15:  'scale' is assigned a value but never used          @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:   'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:   'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 78:15:  'scale' is assigned a value but never used          @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:   'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:   'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 78:15:  'scale' is assigned a value but never used          @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/AppV3.tsx
+  Line 6:10:  'WeightageExplanation' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:   'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:   'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 78:15:  'scale' is assigned a value but never used          @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:   'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:   'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 78:15:  'scale' is assigned a value but never used          @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/WorldClassResults.tsx
+  Line 1:27:  'useEffect' is defined but never used        @typescript-eslint/no-unused-vars
+  Line 2:18:  'AnimatePresence' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:   'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:   'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 78:15:  'scale' is assigned a value but never used          @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/WorldClassResults.tsx
+  Line 1:27:  'useEffect' is defined but never used        @typescript-eslint/no-unused-vars
+  Line 2:18:  'AnimatePresence' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:   'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:   'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 78:15:  'scale' is assigned a value but never used          @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/WorldClassResults.tsx
+  Line 1:27:  'useEffect' is defined but never used        @typescript-eslint/no-unused-vars
+  Line 2:18:  'AnimatePresence' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:   'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:   'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 78:15:  'scale' is assigned a value but never used          @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 58:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/v3/EnhancedResults.tsx
+  Line 67:9:   'getPillarIcon' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  Line 77:9:   'getPillarDetails' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 103:9:  'getScoreInterpretation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/WorldClassResults.tsx
+  Line 1:27:  'useEffect' is defined but never used        @typescript-eslint/no-unused-vars
+  Line 2:18:  'AnimatePresence' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.

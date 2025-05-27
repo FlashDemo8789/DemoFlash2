@@ -1,0 +1,1577 @@
+
+> flash-frontend@0.1.0 start
+> react-scripts start
+
+(node:71218) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:71218) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+ERROR in src/components/v2/DataCollectionV2.tsx:625:33
+TS2339: Property 'team_cohesion_score' does not exist on type 'Partial<StartupData>'.
+    623 |               <InteractiveSlider
+    624 |                 label="Team Cohesion Score"
+  > 625 |                 value={formData.team_cohesion_score || 1}
+        |                                 ^^^^^^^^^^^^^^^^^^^
+    626 |                 onChange={(val) => updateField('team_cohesion_score', val)}
+    627 |                 min={1}
+    628 |                 max={5}
+
+ERROR in src/components/v2/DataCollectionV2.tsx:634:33
+TS2339: Property 'hiring_velocity_score' does not exist on type 'Partial<StartupData>'.
+    632 |               <InteractiveSlider
+    633 |                 label="Hiring Velocity Score"
+  > 634 |                 value={formData.hiring_velocity_score || 1}
+        |                                 ^^^^^^^^^^^^^^^^^^^^^
+    635 |                 onChange={(val) => updateField('hiring_velocity_score', val)}
+    636 |                 min={1}
+    637 |                 max={5}
+
+ERROR in src/components/v2/DataCollectionV2.tsx:643:33
+TS2339: Property 'diversity_score' does not exist on type 'Partial<StartupData>'.
+    641 |               <InteractiveSlider
+    642 |                 label="Diversity Score"
+  > 643 |                 value={formData.diversity_score || 1}
+        |                                 ^^^^^^^^^^^^^^^
+    644 |                 onChange={(val) => updateField('diversity_score', val)}
+    645 |                 min={1}
+    646 |                 max={5}
+
+ERROR in src/components/v2/DataCollectionV2.tsx:652:33
+TS2339: Property 'technical_expertise_score' does not exist on type 'Partial<StartupData>'.
+    650 |               <InteractiveSlider
+    651 |                 label="Technical Expertise Score"
+  > 652 |                 value={formData.technical_expertise_score || 1}
+        |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+    653 |                 onChange={(val) => updateField('technical_expertise_score', val)}
+    654 |                 min={1}
+    655 |                 max={5}
+
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/components/v2/DataCollectionV2.tsx
+  Line 215:9:  'isPillarValid' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/components/v2/DataCollectionV2.tsx
+  Line 215:9:  'isPillarValid' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+ERROR in src/utils/testDataGenerator.ts:140:5
+TS2322: Type '{ ltv_cac_ratio: number; investor_tier_primary: string; has_debt: boolean; patent_count: number; network_effects_present: boolean; has_data_moat: boolean; regulatory_advantage_present: boolean; ... 42 more ...; technical_expertise_score?: number | undefined; }' is not assignable to type 'Partial<StartupData>'.
+  Object literal may only specify known properties, and '_testProfileName' does not exist in type 'Partial<StartupData>'.
+    138 |     
+    139 |     // Display profile name for testing
+  > 140 |     _testProfileName: profile.name
+        |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    141 |   };
+    142 | };
+    143 |
+
+ERROR in src/utils/testDataGenerator.ts:187:5
+TS2322: Type '{ funding_stage: string; total_capital_raised_usd: number; cash_on_hand_usd: number; monthly_burn_usd: number; annual_revenue_run_rate: number; revenue_growth_rate_percent: number; ... 34 more ...; _testProfileName: string; }' is not assignable to type 'Partial<StartupData>'.
+  Object literal may only specify known properties, and '_testProfileName' does not exist in type 'Partial<StartupData>'.
+    185 |     prior_successful_exits_count: 2,
+    186 |     board_advisor_experience_score: 5,
+  > 187 |     _testProfileName: 'Best Case Scenario'
+        |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    188 |   }),
+    189 |   
+    190 |   worstCase: (): Partial<StartupData> => ({
+
+ERROR in src/utils/testDataGenerator.ts:231:5
+TS2322: Type '{ funding_stage: string; total_capital_raised_usd: number; cash_on_hand_usd: number; monthly_burn_usd: number; annual_revenue_run_rate: number; revenue_growth_rate_percent: number; ... 34 more ...; _testProfileName: string; }' is not assignable to type 'Partial<StartupData>'.
+  Object literal may only specify known properties, and '_testProfileName' does not exist in type 'Partial<StartupData>'.
+    229 |     prior_successful_exits_count: 0,
+    230 |     board_advisor_experience_score: 1,
+  > 231 |     _testProfileName: 'Worst Case Scenario'
+        |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    232 |   })
+    233 | };
+
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:10:  'generateTestStartupData' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 6:35:  'testScenarios' is defined but never used            @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:10:  'generateTestStartupData' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 6:35:  'testScenarios' is defined but never used            @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+ERROR in src/utils/testDataGenerator.ts:140:5
+TS2322: Type '{ ltv_cac_ratio: number; investor_tier_primary: string; has_debt: boolean; patent_count: number; network_effects_present: boolean; has_data_moat: boolean; regulatory_advantage_present: boolean; ... 42 more ...; technical_expertise_score?: number | undefined; }' is not assignable to type 'Partial<StartupData>'.
+  Object literal may only specify known properties, and '_testProfileName' does not exist in type 'Partial<StartupData>'.
+    138 |     
+    139 |     // Display profile name for testing
+  > 140 |     _testProfileName: profile.name
+        |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    141 |   };
+    142 | };
+    143 |
+
+ERROR in src/utils/testDataGenerator.ts:187:5
+TS2322: Type '{ funding_stage: string; total_capital_raised_usd: number; cash_on_hand_usd: number; monthly_burn_usd: number; annual_revenue_run_rate: number; revenue_growth_rate_percent: number; ... 34 more ...; _testProfileName: string; }' is not assignable to type 'Partial<StartupData>'.
+  Object literal may only specify known properties, and '_testProfileName' does not exist in type 'Partial<StartupData>'.
+    185 |     prior_successful_exits_count: 2,
+    186 |     board_advisor_experience_score: 5,
+  > 187 |     _testProfileName: 'Best Case Scenario'
+        |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    188 |   }),
+    189 |   
+    190 |   worstCase: (): Partial<StartupData> => ({
+
+ERROR in src/utils/testDataGenerator.ts:231:5
+TS2322: Type '{ funding_stage: string; total_capital_raised_usd: number; cash_on_hand_usd: number; monthly_burn_usd: number; annual_revenue_run_rate: number; revenue_growth_rate_percent: number; ... 34 more ...; _testProfileName: string; }' is not assignable to type 'Partial<StartupData>'.
+  Object literal may only specify known properties, and '_testProfileName' does not exist in type 'Partial<StartupData>'.
+    229 |     prior_successful_exits_count: 0,
+    230 |     board_advisor_experience_score: 1,
+  > 231 |     _testProfileName: 'Worst Case Scenario'
+        |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    232 |   })
+    233 | };
+
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:10:  'generateTestStartupData' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 6:35:  'testScenarios' is defined but never used            @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:10:  'generateTestStartupData' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 6:35:  'testScenarios' is defined but never used            @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+ERROR in src/utils/testDataGenerator.ts:184:5
+TS2322: Type '{ funding_stage: string; total_capital_raised_usd: number; cash_on_hand_usd: number; monthly_burn_usd: number; annual_revenue_run_rate: number; revenue_growth_rate_percent: number; ... 34 more ...; _testProfileName: string; }' is not assignable to type 'Partial<StartupData>'.
+  Object literal may only specify known properties, and '_testProfileName' does not exist in type 'Partial<StartupData>'.
+    182 |     prior_successful_exits_count: 2,
+    183 |     board_advisor_experience_score: 5,
+  > 184 |     _testProfileName: 'Best Case Scenario'
+        |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    185 |   }),
+    186 |   
+    187 |   worstCase: (): Partial<StartupData> => ({
+
+ERROR in src/utils/testDataGenerator.ts:228:5
+TS2322: Type '{ funding_stage: string; total_capital_raised_usd: number; cash_on_hand_usd: number; monthly_burn_usd: number; annual_revenue_run_rate: number; revenue_growth_rate_percent: number; ... 34 more ...; _testProfileName: string; }' is not assignable to type 'Partial<StartupData>'.
+  Object literal may only specify known properties, and '_testProfileName' does not exist in type 'Partial<StartupData>'.
+    226 |     prior_successful_exits_count: 0,
+    227 |     board_advisor_experience_score: 1,
+  > 228 |     _testProfileName: 'Worst Case Scenario'
+        |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    229 |   })
+    230 | };
+
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:10:  'generateTestStartupData' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 6:35:  'testScenarios' is defined but never used            @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:10:  'generateTestStartupData' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 6:35:  'testScenarios' is defined but never used            @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/ResultsPageV2.tsx
+  Line 215:9:  'allPillarsPass' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/ResultsPageV2.tsx
+  Line 215:9:  'allPillarsPass' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+ERROR in src/components/v2/ResultsPageV2.tsx:261:41
+TS2304: Cannot find name 'allPillarsPass'.
+    259 |           {/* Final Pass/Fail Score */}
+    260 |           <motion.div
+  > 261 |             className={`final-verdict ${allPillarsPass ? 'pass' : 'fail'}`}
+        |                                         ^^^^^^^^^^^^^^
+    262 |             initial={{ scale: 0, rotate: -180 }}
+    263 |             animate={{ scale: 1, rotate: 0 }}
+    264 |             transition={{ delay: 1.5, type: "spring", stiffness: 200 }}
+
+ERROR in src/components/v2/ResultsPageV2.tsx:267:16
+TS2304: Cannot find name 'allPillarsPass'.
+    265 |           >
+    266 |             <div className="verdict-icon">
+  > 267 |               {allPillarsPass ? '✅' : '❌'}
+        |                ^^^^^^^^^^^^^^
+    268 |             </div>
+    269 |             <div className="verdict-text">
+    270 |               {allPillarsPass ? 'PASS' : 'FAIL'}
+
+ERROR in src/components/v2/ResultsPageV2.tsx:270:16
+TS2304: Cannot find name 'allPillarsPass'.
+    268 |             </div>
+    269 |             <div className="verdict-text">
+  > 270 |               {allPillarsPass ? 'PASS' : 'FAIL'}
+        |                ^^^^^^^^^^^^^^
+    271 |             </div>
+    272 |             <div className="verdict-subtitle">
+    273 |               {allPillarsPass 
+
+ERROR in src/components/v2/ResultsPageV2.tsx:273:16
+TS2304: Cannot find name 'allPillarsPass'.
+    271 |             </div>
+    272 |             <div className="verdict-subtitle">
+  > 273 |               {allPillarsPass 
+        |                ^^^^^^^^^^^^^^
+    274 |                 ? 'All pillars meet minimum requirements' 
+    275 |                 : `${pillars.filter(p => p.score < 0.5).length} pillar(s) need improvement`}
+    276 |             </div>
+
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/ResultsPageV2.tsx
+  Line 93:9:  'thresholdPercent' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/ResultsPageV2.tsx
+  Line 93:9:  'thresholdPercent' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+ERROR in src/components/v3/DataCollectionV3.tsx:144:13
+TS2322: Type 'string | number | true' is not assignable to type 'string | number | readonly string[] | undefined'.
+  Type 'true' is not assignable to type 'string | number | readonly string[] | undefined'.
+    142 |           <select
+    143 |             id={field}
+  > 144 |             value={value || ''}
+        |             ^^^^^
+    145 |             onChange={(e) => handleFieldChange(field, e.target.value)}
+    146 |             className={error ? 'error' : ''}
+    147 |           >
+
+ERROR in src/components/v3/DataCollectionV3.tsx:166:13
+TS2322: Type 'string | number | true' is not assignable to type 'string | number | readonly string[] | undefined'.
+    164 |           <select
+    165 |             id={field}
+  > 166 |             value={value || ''}
+        |             ^^^^^
+    167 |             onChange={(e) => handleFieldChange(field, e.target.value)}
+    168 |             className={error ? 'error' : ''}
+    169 |           >
+
+ERROR in src/components/v3/DataCollectionV3.tsx:192:11
+TS2322: Type 'string | number | true' is not assignable to type 'string | number | readonly string[] | undefined'.
+    190 |           id={field}
+    191 |           type={inputType}
+  > 192 |           value={value || ''}
+        |           ^^^^^
+    193 |           onChange={(e) => {
+    194 |             const val = inputType === 'number' ? parseFloat(e.target.value) || 0 : e.target.value;
+    195 |             handleFieldChange(field, val);
+
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/Users/sf/Desktop/FLASH/flash-frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 2 warnings
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+ERROR in src/components/v3/DataCollectionV3.tsx:144:13
+TS2322: Type 'string | number | true' is not assignable to type 'string | number | readonly string[] | undefined'.
+  Type 'true' is not assignable to type 'string | number | readonly string[] | undefined'.
+    142 |           <select
+    143 |             id={field}
+  > 144 |             value={value || ''}
+        |             ^^^^^
+    145 |             onChange={(e) => handleFieldChange(field, e.target.value)}
+    146 |             className={error ? 'error' : ''}
+    147 |           >
+
+ERROR in src/components/v3/DataCollectionV3.tsx:166:13
+TS2322: Type 'string | number | true' is not assignable to type 'string | number | readonly string[] | undefined'.
+    164 |           <select
+    165 |             id={field}
+  > 166 |             value={value || ''}
+        |             ^^^^^
+    167 |             onChange={(e) => handleFieldChange(field, e.target.value)}
+    168 |             className={error ? 'error' : ''}
+    169 |           >
+
+ERROR in src/components/v3/DataCollectionV3.tsx:192:11
+TS2322: Type 'string | number | true' is not assignable to type 'string | number | readonly string[] | undefined'.
+    190 |           id={field}
+    191 |           type={inputType}
+  > 192 |           value={value || ''}
+        |           ^^^^^
+    193 |           onChange={(e) => {
+    194 |             const val = inputType === 'number' ? parseFloat(e.target.value) || 0 : e.target.value;
+    195 |             handleFieldChange(field, val);
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+ERROR in src/components/v3/DataCollectionV3.tsx:144:13
+TS2322: Type 'string | number | true' is not assignable to type 'string | number | readonly string[] | undefined'.
+  Type 'true' is not assignable to type 'string | number | readonly string[] | undefined'.
+    142 |           <select
+    143 |             id={field}
+  > 144 |             value={value || ''}
+        |             ^^^^^
+    145 |             onChange={(e) => handleFieldChange(field, e.target.value)}
+    146 |             className={error ? 'error' : ''}
+    147 |           >
+
+ERROR in src/components/v3/DataCollectionV3.tsx:166:13
+TS2322: Type 'string | number | true' is not assignable to type 'string | number | readonly string[] | undefined'.
+    164 |           <select
+    165 |             id={field}
+  > 166 |             value={value || ''}
+        |             ^^^^^
+    167 |             onChange={(e) => handleFieldChange(field, e.target.value)}
+    168 |             className={error ? 'error' : ''}
+    169 |           >
+
+ERROR in src/components/v3/DataCollectionV3.tsx:192:11
+TS2322: Type 'string | number | true' is not assignable to type 'string | number | readonly string[] | undefined'.
+    190 |           id={field}
+    191 |           type={inputType}
+  > 192 |           value={value || ''}
+        |           ^^^^^
+    193 |           onChange={(e) => {
+    194 |             const val = inputType === 'number' ? parseFloat(e.target.value) || 0 : e.target.value;
+    195 |             handleFieldChange(field, val);
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.v2.tsx
+  Line 14:10:  'startupData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v2/DataCollectionV2.tsx
+  Line 6:35:  'testScenarios' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisOrb.tsx
+  Line 1:17:  'useEffect' is defined but never used               @typescript-eslint/no-unused-vars
+  Line 23:9:  'dataPointsRef' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/v3/AnalysisPage.tsx
+  Line 55:6:  React Hook useEffect has missing dependencies: 'performAnalysis' and 'phases'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+ERROR in src/components/v3/DataCollectionV3.tsx:144:13
+TS2322: Type 'string | number | true' is not assignable to type 'string | number | readonly string[] | undefined'.
+  Type 'true' is not assignable to type 'string | number | readonly string[] | undefined'.
+    142 |           <select
+    143 |             id={field}
+  > 144 |             value={value || ''}
+        |             ^^^^^
+    145 |             onChange={(e) => handleFieldChange(field, e.target.value)}
+    146 |             className={error ? 'error' : ''}
+    147 |           >
+
+ERROR in src/components/v3/DataCollectionV3.tsx:166:13
+TS2322: Type 'string | number | true' is not assignable to type 'string | number | readonly string[] | undefined'.
+    164 |           <select
+    165 |             id={field}
+  > 166 |             value={value || ''}
+        |             ^^^^^
+    167 |             onChange={(e) => handleFieldChange(field, e.target.value)}
+    168 |             className={error ? 'error' : ''}
+    169 |           >
+
+ERROR in src/components/v3/DataCollectionV3.tsx:192:11
+TS2322: Type 'string | number | true' is not assignable to type 'string | number | readonly string[] | undefined'.
+    190 |           id={field}
+    191 |           type={inputType}
+  > 192 |           value={value || ''}
+        |           ^^^^^
+    193 |           onChange={(e) => {
+    194 |             const val = inputType === 'number' ? parseFloat(e.target.value) || 0 : e.target.value;
+    195 |             handleFieldChange(field, val);
+
+The build failed because the process exited too early. This probably means the system ran out of memory or someone called `kill -9` on the process.

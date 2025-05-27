@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Direct Results Test</title>
+    <style>
+        body { font-family: -apple-system, system-ui; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .step { background: #f5f5f5; padding: 20px; margin: 20px 0; border-radius: 8px; }
+        button { padding: 10px 20px; background: #3b82f6; color: white; border: none; border-radius: 6px; cursor: pointer; margin: 5px; }
+        button:hover { background: #2563eb; }
+        .result { background: white; padding: 15px; margin: 10px 0; border-radius: 6px; border: 1px solid #ddd; }
+        .success { color: green; }
+        .error { color: red; }
+        .pillar { display: inline-block; margin: 10px; padding: 15px; background: #e0f2fe; border-radius: 8px; text-align: center; min-width: 120px; }
+        .pillar-name { font-weight: bold; color: #0369a1; }
+        .pillar-score { font-size: 24px; font-weight: bold; color: #0ea5e9; margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Direct Results Test - CAMP Scores</h1>
+        
+        <div class="step">
+            <h2>Step 1: Call API Directly</h2>
+            <button onclick="callAPI()">Call /predict API</button>
+            <div id="apiResult"></div>
+        </div>
+        
+        <div class="step">
+            <h2>Step 2: Display CAMP Scores</h2>
+            <div id="campScores"></div>
+        </div>
+        
+        <div class="step">
+            <h2>Step 3: Simulate React Component</h2>
+            <button onclick="simulateReact()">Simulate React Render</button>
+            <div id="reactSimulation"></div>
+        </div>
+    </div>
+
+    <script>
+        const testData = {
+            funding_stage: "series_a",
+            total_capital_raised_usd: 5000000,
+            cash_on_hand_usd: 3000000,
+            monthly_burn_usd: 150000,
+            runway_months: 20,
+            annual_revenue_run_rate: 2400000,
+            revenue_growth_rate_percent: 15,
+            gross_margin_percent: 65,
+            burn_multiple: 0.75,
+            ltv_cac_ratio: 5.0,
+            investor_tier_primary: "tier_1",
+            has_debt: false,
+            patent_count: 2,
+            network_effects_present: true,
+            has_data_moat: true,
+            regulatory_advantage_present: false,
+            tech_differentiation_score: 4,
+            switching_cost_score: 4,
+            brand_strength_score: 3,
+            scalability_score: 0.8,
+            product_stage: "growth",
+            product_retention_30d: 0.85,
+            product_retention_90d: 0.75,
+            sector: "fintech",
+            tam_size_usd: 50000000000,
+            sam_size_usd: 10000000000,
+            som_size_usd: 500000000,
+            market_growth_rate_percent: 25,
+            customer_count: 5000,
+            customer_concentration_percent: 15,
+            user_growth_rate_percent: 20,
+            net_dollar_retention_percent: 115,
+            competition_intensity: 3,
+            competitors_named_count: 15,
+            dau_mau_ratio: 0.4,
+            founders_count: 2,
+            team_size_full_time: 25,
+            years_experience_avg: 8,
+            domain_expertise_years_avg: 6,
+            prior_startup_experience_count: 3,
+            prior_successful_exits_count: 1,
+            board_advisor_experience_score: 4,
+            advisors_count: 4,
+            team_diversity_percent: 40,
+            key_person_dependency: false
+        };
+
+        let apiResponse = null;
+
+        async function callAPI() {
+            const resultDiv = document.getElementById('apiResult');
+            resultDiv.innerHTML = '<div class="result">Calling API...</div>';
+            
+            try {
+                const response = await fetch('http://localhost:8000/predict', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(testData)
+                });
+                
+                apiResponse = await response.json();
+                
+                resultDiv.innerHTML = `
+                    <div class="result success">
+                        <h3>✅ API Call Successful</h3>
+                        <p><strong>Success Probability:</strong> ${(apiResponse.success_probability * 100).toFixed(1)}%</p>
+                        <p><strong>Risk Level:</strong> ${apiResponse.risk_level}</p>
+                        <p><strong>Has pillar_scores?</strong> ${apiResponse.pillar_scores ? 'YES ✅' : 'NO ❌'}</p>
+                        <details>
+                            <summary>Full Response</summary>
+                            <pre>${JSON.stringify(apiResponse, null, 2)}</pre>
+                        </details>
+                    </div>
+                `;
+                
+                displayCAMPScores();
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="result error">Error: ${error.message}</div>`;
+            }
+        }
+
+        function displayCAMPScores() {
+            const scoresDiv = document.getElementById('campScores');
+            
+            if (!apiResponse || !apiResponse.pillar_scores) {
+                scoresDiv.innerHTML = '<div class="result error">No pillar scores found!</div>';
+                return;
+            }
+            
+            scoresDiv.innerHTML = '<h3>CAMP Pillar Scores:</h3>';
+            const pillarsContainer = document.createElement('div');
+            
+            const pillars = ['capital', 'advantage', 'market', 'people'];
+            pillars.forEach(pillar => {
+                const score = apiResponse.pillar_scores[pillar];
+                const pillarDiv = document.createElement('div');
+                pillarDiv.className = 'pillar';
+                pillarDiv.innerHTML = `
+                    <div class="pillar-name">${pillar.toUpperCase()}</div>
+                    <div class="pillar-score">${(score * 100).toFixed(1)}%</div>
+                `;
+                pillarsContainer.appendChild(pillarDiv);
+            });
+            
+            scoresDiv.appendChild(pillarsContainer);
+        }
+
+        function simulateReact() {
+            const simDiv = document.getElementById('reactSimulation');
+            
+            if (!apiResponse) {
+                simDiv.innerHTML = '<div class="result error">Please call API first!</div>';
+                return;
+            }
+            
+            // Simulate what React component should render
+            const ReactComponent = ({ results }) => {
+                const hasScores = results && results.pillar_scores;
+                const scores = hasScores ? Object.entries(results.pillar_scores) : [];
+                
+                return `
+                    <div class="result">
+                        <h3>React Component Simulation</h3>
+                        <p>results exists: ${results ? 'YES' : 'NO'}</p>
+                        <p>results.pillar_scores exists: ${hasScores ? 'YES' : 'NO'}</p>
+                        <p>Number of scores: ${scores.length}</p>
+                        ${scores.map(([pillar, score]) => 
+                            `<p>${pillar}: ${(score * 100).toFixed(1)}%</p>`
+                        ).join('')}
+                    </div>
+                `;
+            };
+            
+            simDiv.innerHTML = ReactComponent({ results: apiResponse });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,371 @@
+/* Analysis Orb - Sophisticated, Minimal, Functional */
+
+.analysis-orb-container {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.analysis-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.analysis-status {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.status-text {
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  margin-bottom: 12px;
+}
+
+.progress-indicator {
+  width: 200px;
+  height: 2px;
+  background: #f3f4f6;
+  border-radius: 1px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #3b82f6;
+  transition: width 0.3s ease;
+}
+
+.analysis-complete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.complete-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #10b981;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.complete-text {
+  font-size: 14px;
+  color: #10b981;
+  font-weight: 500;
+}
+
+/* Minimal Results Display */
+
+.minimal-results {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.verdict-section {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.probability {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+  color: #111827;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.verdict-text {
+  font-size: 18px;
+  color: #6b7280;
+  margin-top: 12px;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  margin-bottom: 60px;
+  padding: 40px 0;
+  border-top: 1px solid #f3f4f6;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.metric {
+  text-align: center;
+}
+
+.metric-value {
+  font-size: 32px;
+  font-weight: 600;
+  color: #111827;
+  line-height: 1;
+}
+
+.metric-label {
+  font-size: 12px;
+  color: #9ca3af;
+  margin-top: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+.metric-indicator {
+  width: 100%;
+  height: 2px;
+  background: #f3f4f6;
+  margin-top: 12px;
+  border-radius: 1px;
+  overflow: hidden;
+}
+
+.indicator-fill {
+  height: 100%;
+  background: #3b82f6;
+  transition: width 1s ease;
+}
+
+.insights-section {
+  margin-bottom: 48px;
+}
+
+.insight {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #4b5563;
+  margin-bottom: 16px;
+}
+
+.insight:first-child {
+  font-weight: 500;
+  color: #111827;
+}
+
+.action-section {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.primary-action,
+.secondary-action {
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  letter-spacing: 0.025em;
+}
+
+.primary-action {
+  background: #111827;
+  color: white;
+}
+
+.primary-action:hover {
+  background: #1f2937;
+  transform: translateY(-1px);
+}
+
+.secondary-action {
+  background: transparent;
+  color: #6b7280;
+  border: 1px solid #e5e7eb;
+}
+
+.secondary-action:hover {
+  border-color: #d1d5db;
+  color: #4b5563;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .status-text,
+  .metric-label,
+  .secondary-action {
+    color: #9ca3af;
+  }
+  
+  .probability,
+  .metric-value,
+  .insight:first-child {
+    color: #f9fafb;
+  }
+  
+  .verdict-text,
+  .insight {
+    color: #d1d5db;
+  }
+  
+  .progress-indicator,
+  .metric-indicator {
+    background: #374151;
+  }
+  
+  .primary-action {
+    background: #f9fafb;
+    color: #111827;
+  }
+  
+  .primary-action:hover {
+    background: #f3f4f6;
+  }
+  
+  .secondary-action {
+    border-color: #4b5563;
+  }
+  
+  .metrics-grid {
+    border-color: #374151;
+  }
+}
+
+/* Advanced features styles */
+.confidence-score {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-top: 0.5rem;
+}
+
+.dna-section {
+  margin: 2rem 0;
+  padding: 1rem;
+  background: rgba(59, 130, 246, 0.05);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.dna-label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #3b82f6;
+  margin-bottom: 0.5rem;
+}
+
+.dna-description {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.temporal-grid {
+  display: flex;
+  justify-content: space-around;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 8px;
+}
+
+.temporal-item {
+  text-align: center;
+}
+
+.temporal-label {
+  display: block;
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+}
+
+.temporal-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.industry-section {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.industry-performance {
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+.industry-performance strong {
+  color: #111827;
+  font-weight: 600;
+}
+
+.advanced-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: #3b82f6;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 9999px;
+  margin-left: 1rem;
+}
+
+/* Dark mode updates for advanced features */
+@media (prefers-color-scheme: dark) {
+  .confidence-score,
+  .dna-description,
+  .temporal-label,
+  .industry-performance {
+    color: #9ca3af;
+  }
+  
+  .dna-section {
+    background: rgba(59, 130, 246, 0.1);
+  }
+  
+  .temporal-grid {
+    background: rgba(255, 255, 255, 0.02);
+  }
+  
+  .industry-performance strong {
+    color: #f9fafb;
+  }
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .metrics-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  
+  .probability {
+    font-size: 56px;
+  }
+  
+  .action-section {
+    flex-direction: column;
+  }
+  
+  .primary-action,
+  .secondary-action {
+    width: 100%;
+  }
+}

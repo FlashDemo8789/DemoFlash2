@@ -1,0 +1,58 @@
+/Users/sf/Desktop/FLASH/api_server.py:221: PydanticDeprecatedSince20: Pydantic V1 style `@validator` validators are deprecated. You should migrate to Pydantic V2 style `@field_validator` validators, see the migration guide for more details. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  @validator('runway_months', pre=True, always=True)
+/Users/sf/Desktop/FLASH/api_server.py:232: PydanticDeprecatedSince20: Pydantic V1 style `@validator` validators are deprecated. You should migrate to Pydantic V2 style `@field_validator` validators, see the migration guide for more details. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  @validator('burn_multiple', pre=True, always=True)
+/Users/sf/Desktop/FLASH/api_server.py:251: PydanticDeprecatedSince20: Pydantic V1 style `@validator` validators are deprecated. You should migrate to Pydantic V2 style `@field_validator` validators, see the migration guide for more details. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  @validator('tam_size_usd')
+/Users/sf/Desktop/FLASH/api_server.py:257: PydanticDeprecatedSince20: Pydantic V1 style `@validator` validators are deprecated. You should migrate to Pydantic V2 style `@field_validator` validators, see the migration guide for more details. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  @validator('sam_size_usd')
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pydantic/_internal/_config.py:373: UserWarning: Valid config keys have changed in V2:
+* 'max_anystr_length' has been renamed to 'str_max_length'
+  warnings.warn(message, UserWarning)
+/Users/sf/Desktop/FLASH/api_server.py:750: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [78083]
+INFO:     Waiting for application startup.
+2025-05-25 18:36:18,359 - __main__ - INFO - Loading models...
+2025-05-25 18:36:18,388 - __main__ - INFO - Loaded conservative model
+2025-05-25 18:36:18,390 - __main__ - INFO - Loaded aggressive model
+2025-05-25 18:36:18,392 - __main__ - INFO - Loaded balanced model
+2025-05-25 18:36:18,396 - __main__ - INFO - Loaded deep model
+2025-05-25 18:36:18,400 - __main__ - INFO - Loaded meta_logistic model
+2025-05-25 18:36:18,415 - __main__ - INFO - Loaded meta_nn model
+2025-05-25 18:36:18,417 - __main__ - INFO - Loaded meta_catboost model
+2025-05-25 18:36:18,420 - __main__ - INFO - Loaded capital pillar model
+2025-05-25 18:36:18,423 - __main__ - INFO - Loaded advantage pillar model
+2025-05-25 18:36:18,425 - __main__ - INFO - Loaded market pillar model
+2025-05-25 18:36:18,428 - __main__ - INFO - Loaded people pillar model
+2025-05-25 18:36:18,428 - __main__ - INFO - Successfully loaded 7 ensemble models and 4 pillar models
+2025-05-25 18:36:18,431 - stage_hierarchical_models - INFO - Models loaded from models/stage_hierarchical
+2025-05-25 18:36:18,431 - __main__ - INFO - Stage-based hierarchical models loaded successfully
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60166 - "GET /health HTTP/1.1" 200 OK
+2025-05-25 18:36:24,944 - __main__ - INFO - Prediction request from 127.0.0.1 for stage: series_a
+/Users/sf/Desktop/FLASH/api_server.py:789: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data = pd.DataFrame([metrics.dict()])
+/Users/sf/Desktop/FLASH/api_server.py:834: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  stage_data = pd.DataFrame([metrics.dict()])
+2025-05-25 18:36:25,020 - __main__ - INFO - Stage model prediction: 0.500, Base: 0.540, Final: 0.516
+2025-05-25 18:36:25,027 - __main__ - INFO - Calculated pillar scores using v2 models: {'capital': 0.4025745610319678, 'advantage': 0.7198940559792892, 'market': 0.5531556487626919, 'people': 0.6456350279117614}
+/Users/sf/Desktop/FLASH/api_server.py:893: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data=metrics.dict(),
+/Users/sf/Desktop/FLASH/api_server.py:902: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  key_insights=generate_insights(metrics.dict(), evaluation['adjusted_probability'], evaluation['adjusted_pillar_scores']),
+/Users/sf/Desktop/FLASH/api_server.py:904: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  recommendation=generate_recommendation(evaluation['adjusted_probability'], evaluation['adjusted_pillar_scores'], metrics.dict()),
+2025-05-25 18:36:25,028 - __main__ - INFO - Response pillar_scores: {'capital': 0.3525745610319678, 'advantage': 0.7198940559792892, 'market': 0.5531556487626919, 'people': 0.6456350279117614}
+2025-05-25 18:36:25,029 - __main__ - INFO - Full response dict: {'success_probability': 0.5159994300952011, 'confidence_interval': {'lower': 0.4619709885059529, 'upper': 0.5700278716844493}, 'risk_level': 'Medium Risk', 'key_insights': ['🛡️ Strong competitive moat and differentiation', '📈 Strong growth: 150.0% YoY revenue growth', '💎 Excellent NDR: 125.0% - strong expansion revenue', '⭐ Outstanding product retention: 85% at 30 days'], 'pillar_scores': {'capital': 0.3525745610319678, 'advantage': 0.7198940559792892, 'market': 0.5531556487626919, 'people': 0.6456350279117614}, 'recommendation': '⚠️ Moderate risk - focus on key improvements. PRIORITY IMPROVEMENTS: • 📊 Extend runway to 18+ months. Focus on revenue growth or raise bridge round.', 'timestamp': datetime.datetime(2025, 5, 25, 18, 36, 25, 28454), 'verdict': 'CONDITIONAL PASS', 'strength': 'MODERATE', 'weighted_score': 0.5861807981687936, 'critical_failures': [], 'below_threshold': [], 'stage_thresholds': {'capital': 0.35, 'advantage': 0.45, 'market': 0.4, 'people': 0.5}}
+INFO:     127.0.0.1:60168 - "POST /predict HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [78083]

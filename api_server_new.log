@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/sf/Desktop/FLASH/api_server.py", line 160, in <module>
+    class StartupMetrics(BaseModel):
+    ...<100 lines>...
+            return v
+  File "/Users/sf/Desktop/FLASH/api_server.py", line 163, in StartupMetrics
+    funding_stage: str = Field(..., description="Current funding stage", regex="^(pre_seed|seed|series_a|series_b|series_c|growth)$")
+                         ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pydantic/fields.py", line 1073, in Field
+    raise PydanticUserError('`regex` is removed. use `pattern` instead', code='removed-kwargs')
+pydantic.errors.PydanticUserError: `regex` is removed. use `pattern` instead
+
+For further information visit https://errors.pydantic.dev/2.11/u/removed-kwargs

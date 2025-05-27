@@ -1,0 +1,312 @@
+{
+  "version": "2.0",
+  "framework": "CatBoost",
+  "training_date": "2025-05-24T22:23:32.373383",
+  "features": {
+    "capital": [
+      "funding_stage",
+      "total_capital_raised_usd",
+      "cash_on_hand_usd",
+      "monthly_burn_usd",
+      "runway_months",
+      "annual_revenue_run_rate",
+      "revenue_growth_rate_percent",
+      "gross_margin_percent",
+      "burn_multiple",
+      "ltv_cac_ratio",
+      "investor_tier_primary",
+      "has_debt"
+    ],
+    "advantage": [
+      "patent_count",
+      "network_effects_present",
+      "has_data_moat",
+      "regulatory_advantage_present",
+      "tech_differentiation_score",
+      "switching_cost_score",
+      "brand_strength_score",
+      "scalability_score",
+      "product_stage",
+      "product_retention_30d",
+      "product_retention_90d"
+    ],
+    "market": [
+      "sector",
+      "tam_size_usd",
+      "sam_size_usd",
+      "som_size_usd",
+      "market_growth_rate_percent",
+      "customer_count",
+      "customer_concentration_percent",
+      "user_growth_rate_percent",
+      "net_dollar_retention_percent",
+      "competition_intensity",
+      "competitors_named_count",
+      "dau_mau_ratio"
+    ],
+    "people": [
+      "founders_count",
+      "team_size_full_time",
+      "years_experience_avg",
+      "domain_expertise_years_avg",
+      "prior_startup_experience_count",
+      "prior_successful_exits_count",
+      "board_advisor_experience_score",
+      "advisors_count",
+      "team_diversity_percent",
+      "key_person_dependency"
+    ],
+    "all": [
+      "funding_stage",
+      "total_capital_raised_usd",
+      "cash_on_hand_usd",
+      "monthly_burn_usd",
+      "runway_months",
+      "annual_revenue_run_rate",
+      "revenue_growth_rate_percent",
+      "gross_margin_percent",
+      "burn_multiple",
+      "ltv_cac_ratio",
+      "investor_tier_primary",
+      "has_debt",
+      "patent_count",
+      "network_effects_present",
+      "has_data_moat",
+      "regulatory_advantage_present",
+      "tech_differentiation_score",
+      "switching_cost_score",
+      "brand_strength_score",
+      "scalability_score",
+      "product_stage",
+      "product_retention_30d",
+      "product_retention_90d",
+      "sector",
+      "tam_size_usd",
+      "sam_size_usd",
+      "som_size_usd",
+      "market_growth_rate_percent",
+      "customer_count",
+      "customer_concentration_percent",
+      "user_growth_rate_percent",
+      "net_dollar_retention_percent",
+      "competition_intensity",
+      "competitors_named_count",
+      "dau_mau_ratio",
+      "founders_count",
+      "team_size_full_time",
+      "years_experience_avg",
+      "domain_expertise_years_avg",
+      "prior_startup_experience_count",
+      "prior_successful_exits_count",
+      "board_advisor_experience_score",
+      "advisors_count",
+      "team_diversity_percent",
+      "key_person_dependency"
+    ]
+  },
+  "categorical_features": [
+    "funding_stage",
+    "investor_tier_primary",
+    "product_stage",
+    "sector"
+  ],
+  "performance_metrics": {
+    "test_auc": 0.7736108790436882,
+    "test_accuracy": 0.7142,
+    "test_precision": 0.6857369255150555,
+    "test_recall": 0.536848635235732,
+    "test_f1": 0.6022268615170494,
+    "val_auc": 0.7757652558569315,
+    "train_auc": 0.781154663874914
+  },
+  "feature_importance": {
+    "capital": [
+      {
+        "feature": "burn_multiple",
+        "importance": 50.70459890490618
+      },
+      {
+        "feature": "ltv_cac_ratio",
+        "importance": 6.964948442590833
+      },
+      {
+        "feature": "annual_revenue_run_rate",
+        "importance": 6.8020818663617755
+      },
+      {
+        "feature": "funding_stage",
+        "importance": 6.57345774367072
+      },
+      {
+        "feature": "gross_margin_percent",
+        "importance": 5.672885920498973
+      },
+      {
+        "feature": "total_capital_raised_usd",
+        "importance": 4.368071123320384
+      },
+      {
+        "feature": "monthly_burn_usd",
+        "importance": 3.6429251706626333
+      },
+      {
+        "feature": "revenue_growth_rate_percent",
+        "importance": 3.5862737165655236
+      },
+      {
+        "feature": "cash_on_hand_usd",
+        "importance": 3.506218450071499
+      },
+      {
+        "feature": "investor_tier_primary",
+        "importance": 3.4849599916699714
+      },
+      {
+        "feature": "runway_months",
+        "importance": 2.8639317468542136
+      },
+      {
+        "feature": "has_debt",
+        "importance": 1.829646922827296
+      }
+    ],
+    "advantage": [
+      {
+        "feature": "product_stage",
+        "importance": 55.89414515825342
+      },
+      {
+        "feature": "product_retention_30d",
+        "importance": 9.888137034972418
+      },
+      {
+        "feature": "product_retention_90d",
+        "importance": 7.08272013101201
+      },
+      {
+        "feature": "scalability_score",
+        "importance": 6.673501068725309
+      },
+      {
+        "feature": "brand_strength_score",
+        "importance": 5.8528029342976415
+      },
+      {
+        "feature": "tech_differentiation_score",
+        "importance": 5.654267503833746
+      },
+      {
+        "feature": "switching_cost_score",
+        "importance": 5.160065461320912
+      },
+      {
+        "feature": "patent_count",
+        "importance": 1.3902505954940967
+      },
+      {
+        "feature": "network_effects_present",
+        "importance": 1.0791759617115795
+      },
+      {
+        "feature": "has_data_moat",
+        "importance": 0.7222660759708511
+      },
+      {
+        "feature": "regulatory_advantage_present",
+        "importance": 0.6026680744080493
+      }
+    ],
+    "market": [
+      {
+        "feature": "customer_count",
+        "importance": 60.98574673260843
+      },
+      {
+        "feature": "net_dollar_retention_percent",
+        "importance": 20.314487541465972
+      },
+      {
+        "feature": "sector",
+        "importance": 7.683768183799582
+      },
+      {
+        "feature": "customer_concentration_percent",
+        "importance": 3.004088043381957
+      },
+      {
+        "feature": "dau_mau_ratio",
+        "importance": 1.395645215233197
+      },
+      {
+        "feature": "market_growth_rate_percent",
+        "importance": 1.1181696535450962
+      },
+      {
+        "feature": "user_growth_rate_percent",
+        "importance": 1.0947810497012787
+      },
+      {
+        "feature": "tam_size_usd",
+        "importance": 1.0366962492635674
+      },
+      {
+        "feature": "competition_intensity",
+        "importance": 0.9578442503654586
+      },
+      {
+        "feature": "som_size_usd",
+        "importance": 0.9453911226381563
+      },
+      {
+        "feature": "sam_size_usd",
+        "importance": 0.8447178440730209
+      },
+      {
+        "feature": "competitors_named_count",
+        "importance": 0.6186641139242568
+      }
+    ],
+    "people": [
+      {
+        "feature": "team_size_full_time",
+        "importance": 72.09923743549837
+      },
+      {
+        "feature": "years_experience_avg",
+        "importance": 7.73708143947764
+      },
+      {
+        "feature": "domain_expertise_years_avg",
+        "importance": 7.569066445616126
+      },
+      {
+        "feature": "board_advisor_experience_score",
+        "importance": 7.051682159075198
+      },
+      {
+        "feature": "key_person_dependency",
+        "importance": 1.1647855323237488
+      },
+      {
+        "feature": "founders_count",
+        "importance": 1.0505234310893847
+      },
+      {
+        "feature": "prior_startup_experience_count",
+        "importance": 1.0019643772999667
+      },
+      {
+        "feature": "team_diversity_percent",
+        "importance": 0.9625889818278853
+      },
+      {
+        "feature": "advisors_count",
+        "importance": 0.7313226278118367
+      },
+      {
+        "feature": "prior_successful_exits_count",
+        "importance": 0.6317475699798414
+      }
+    ]
+  }
+}

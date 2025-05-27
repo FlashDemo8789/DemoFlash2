@@ -1,0 +1,140 @@
+/* Landing Page Styles */
+
+.landing-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+}
+
+.landing-content {
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto var(--space-4);
+  background: linear-gradient(135deg, var(--color-primary), #00C6FF);
+  border-radius: var(--radius-xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 
+    0 10px 40px rgba(0, 122, 255, 0.3),
+    inset 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography */
+.landing-title {
+  font-size: 72px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--space-2);
+  background: linear-gradient(135deg, var(--color-text-primary) 0%, var(--color-primary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.landing-subtitle {
+  font-size: 24px;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-5);
+  font-weight: 400;
+}
+
+/* CTA Button */
+.landing-cta {
+  font-size: 20px;
+  padding: var(--space-2) var(--space-5);
+  margin-bottom: var(--space-8);
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(135deg, var(--color-primary), #00C6FF);
+  box-shadow: 
+    0 4px 20px rgba(0, 122, 255, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.landing-cta:hover {
+  box-shadow: 
+    0 8px 30px rgba(0, 122, 255, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* Features */
+.landing-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-3);
+  margin-bottom: var(--space-6);
+}
+
+.feature-card {
+  background-color: var(--color-surface);
+  padding: var(--space-4);
+  border-radius: var(--radius-lg);
+  transition: all 0.3s var(--ease-out-expo);
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px var(--color-shadow);
+}
+
+.feature-icon {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto var(--space-2);
+  background-color: var(--color-primary);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.feature-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: var(--space-1);
+}
+
+.feature-description {
+  font-size: 16px;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+
+/* Trust Badge */
+.trust-badge {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .landing-title {
+    font-size: 48px;
+  }
+  
+  .landing-subtitle {
+    font-size: 20px;
+  }
+  
+  .landing-cta {
+    font-size: 18px;
+    padding: var(--space-2) var(--space-4);
+  }
+  
+  .landing-features {
+    grid-template-columns: 1fr;
+  }
+}

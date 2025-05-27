@@ -1,0 +1,67 @@
+/* FLASH 2.0 App Styles */
+
+.app {
+  min-height: 100vh;
+  background-color: var(--color-background);
+  transition: background-color 0.3s ease;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+  position: fixed;
+  top: var(--space-3);
+  right: var(--space-3);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.2s var(--ease-out-expo);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px var(--color-shadow);
+}
+
+/* Analyzing State */
+.analyzing-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.analyzing-content {
+  text-align: center;
+}
+
+.analyzing-spinner {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto var(--space-4);
+  border: 3px solid var(--color-surface);
+  border-top-color: var(--color-primary);
+  border-radius: 50%;
+}
+
+.analyzing-content h2 {
+  margin-bottom: var(--space-2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .theme-toggle {
+    top: var(--space-2);
+    right: var(--space-2);
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+}
