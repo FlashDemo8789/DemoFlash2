@@ -42,11 +42,12 @@ EXPOSE 8000
 HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
   CMD curl -f http://localhost:8000/health || exit 1
 
-# Run the application
+# Run the application with extended timeout to avoid 502s
 CMD ["gunicorn", "api_server:app", \
      "--worker-class", "uvicorn.workers.UvicornWorker", \
      "--workers", "4", \
      "--bind", "0.0.0.0:8000", \
+     "--timeout", "120", \
      "--access-logfile", "-", \
      "--error-logfile", "-", \
      "--log-level", "info"]
