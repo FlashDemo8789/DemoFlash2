@@ -20,7 +20,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY api_server.py .
 COPY config.py .
 COPY shap_explainer.py .
-COPY generate_synthetic_data.py .
+# COPY generate_synthetic_data.py .
 
 # Copy models directory
 COPY models/ ./models/
